@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Phew, that was close... Right, Chase?"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "*sniffle*"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Hey... Chase, you okay?"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "*sniff* It's- it's just that I-I've never seen her that mad before..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Come on, it's okay... You don't have to worry about that. Come on, let's do something to keep your mind off of it."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "*sniff* Okay..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Hey, I know. Why don't we sing again?"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "S-sure! J-just you wait, I'm gonna beat you this time!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "That's the spirit!"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Alright, now can we go?"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Hey, wait! Can't we do one last song? H-how about winner takes all?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Alright. If you insist."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "Just don't expect me to go easy on you just because you're tired from running the other day, haha."
+		}
+	]
+}

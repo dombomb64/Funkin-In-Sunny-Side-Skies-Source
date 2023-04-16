@@ -1,0 +1,6 @@
+Makes a blaster appear from off-screen.
+Can shoot a fireball with the Shoot Blaster event.
+
+Value 1: Strum to spawn the blaster aligned with
+(0-3 = Opponent, 4-7 = Player)
+Value 2: None

@@ -1,0 +1,108 @@
+{
+	"dialogue": [
+		{
+			"sound": "jim",
+			"speed": 0.05,
+			"portrait": "jimDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Yo, Dude! How's it going?"
+		},
+		{
+			"sound": "dude",
+			"speed": 0.05,
+			"portrait": "dudeDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "i'm fine, thanks."
+		},
+		{
+			"sound": "jim",
+			"speed": 0.05,
+			"portrait": "jimDialogue",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "May I interest you in..."
+		},
+		{
+			"sound": "jim",
+			"speed": 0.05,
+			"portrait": "jimDialogue",
+			"boxState": "normal",
+			"expression": "Prepared",
+			"text": "...a rap battle?"
+		},
+		{
+			"sound": "dude",
+			"speed": 0.05,
+			"portrait": "dudeDialogueFlip",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "eh?"
+		},
+		{
+			"sound": "jim",
+			"speed": 0.05,
+			"portrait": "jimDialogue",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "I'll get fresh bread from the store!"
+		},
+		{
+			"sound": "jim",
+			"speed": 0.05,
+			"portrait": "jimDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "...instead of the expired ones you take home."
+		},
+		{
+			"sound": "dude",
+			"speed": 0.05,
+			"portrait": "dudeDialogueFlip",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "it's a deal."
+		},
+		{
+			"sound": "dude",
+			"speed": 0.05,
+			"portrait": "dudeDialogueFlip",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "wait, how do you know that?"
+		},
+		{
+			"sound": "jim",
+			"speed": 0.05,
+			"portrait": "jimDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "You thought I didn't notice the bulge under your apron when we met at the store you work at?"
+		},
+		{
+			"sound": "dude",
+			"speed": 0.05,
+			"portrait": "dudeDialogueFlip",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "we met where?"
+		},
+		{
+			"sound": "dude",
+			"speed": 0.05,
+			"portrait": "dudeDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "ah, forget it. i'm ready."
+		},
+		{
+			"sound": "jim",
+			"speed": 0.05,
+			"portrait": "jimDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Alright! Let's start, then!"
+		}
+	]
+}

@@ -1,0 +1,284 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Adiel says goodbye to Sett and heads out to find a dozen wyverberries for his potion.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "They seem to have all gone missing, though.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "He soon finds an injured wolf.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "Adiel wraps a bandage around the wolf's leg, and then the wolf runs off.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "However, the wolf comes back with a mouthful of wyverberries.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "It seems this wolf has been gathering them to feel better because of their magical healing properties.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "The wolf follows Adiel home, who binds the wolf to him as his familiar.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "Then, they get in bed for a good night's rest.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "talk",
+			"text": "Episode: Good Morning",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator"
+		},
+		{
+			"expression": "annoyed",
+			"text": "*wakes up*",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "stare",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.25,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "happyNaked",
+			"text": "*yaaawn* Man, my arm's feeling much better.",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "neutralNaked",
+			"text": "Hm?",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "excitedNaked",
+			"text": "Ah! Master! What're you doing with that staff?",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "stare",
+			"text": "Who are you, and how did you get into my home...?",
+			"boxState": "angry",
+			"sound": "adam",
+			"speed": 0.1,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "sadNaked",
+			"text": "Eh? But I'm-",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "excitedNaked",
+			"text": "Ohhhh! Haha, no wonder you're surprised! I must've transformed during the night!",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "excitedNaked",
+			"text": "Y'see, I'm actually a-",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "annoyed",
+			"text": "Werewolf.",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "excitedNaked",
+			"text": "You already know?! You must be a wizard or something!",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "annoyed",
+			"text": "I AM a wizard. And everyone knows what a werewolf is.",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "neutral",
+			"text": "The bigger question is why didn't you tell me before I made a soul contract with you...?",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "neutralNaked",
+			"text": "Well, when I'm injured, my body naturally stays in wolf form to save energy... And I can't exactly speak then...",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "annoyed",
+			"text": "Well, in the meantime, would you like to sing with me? You see, I've made-",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "excitedNaked",
+			"text": "Of course! ...Let me just-",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "blush",
+			"text": "Oh, lord have mercy...",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.1,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "sadNaked",
+			"text": "What is it?",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "nosebleed",
+			"text": "...Put these on.",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "excitedNaked",
+			"text": "What's this?!",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "excited",
+			"text": "Master's robes?!",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "neutral",
+			"text": "You're taller than me... But it'll do well enough.",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "annoyed",
+			"text": "Here, take this. You'll need to sing into it.",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "happy",
+			"text": "Of course!",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		},
+		{
+			"expression": "neutral",
+			"text": "Alright... Are you ready?",
+			"boxState": "normal",
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip"
+		},
+		{
+			"expression": "excited",
+			"text": "Yes, master!",
+			"boxState": "normal",
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chanceDialogue"
+		}
+	]
+}

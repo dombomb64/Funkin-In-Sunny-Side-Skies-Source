@@ -1,0 +1,407 @@
+--------------------------------------
+-- █░█ ▄▀█ █▀█ █ ▄▀█ █▄▄ █░░ █▀▀ █▀ --
+-- ▀▄▀ █▀█ █▀▄ █ █▀█ █▄█ █▄▄ ██▄ ▄█ --
+--------------------------------------
+
+-- cheating.lua
+
+local cheatingPossible = false;
+local pressedDebug = false;
+
+---------------------------------------------------------------------
+-- █▄░█ █▀█ █▀█ █▀▄▀█ ▄▀█ █░░   █▀▀ █░█ █▄░█ █▀▀ ▀█▀ █ █▀█ █▄░█ █▀ --
+-- █░▀█ █▄█ █▀▄ █░▀░█ █▀█ █▄▄   █▀░ █▄█ █░▀█ █▄▄ ░█░ █ █▄█ █░▀█ ▄█ --
+---------------------------------------------------------------------
+
+function onCreatePost()
+    cheatingOnCreatePost();
+    --customBarsOnCreatePost();
+    deathOnCreatePost();
+	makeIcons(); -- winningIcons.lua
+end
+
+function onUpdate()
+    --customBarsOnUpdate();
+    deathOnUpdate();
+end
+
+function onUpdatePost()
+    cheatingOnUpdatePost();
+    iconOffsetsOnUpdatePost();
+    winningIconsOnUpdatePost();
+end
+
+function onSongStart()
+    cheatingOnSongStart();
+end
+
+function onGameOverStart()
+    deathOnGameOverStart();
+end
+
+function onGameOverConfirm()
+    deathOnGameOverConfirm();
+end
+
+function onTimerCompleted(tag, loops, loopsLeft)
+    -- cheating.lua
+
+    if tag == 'shadowRealm' then
+        loadSong('alacrity', 2);
+    end
+end
+
+function onPause()
+    -- cheating.lua
+
+    if pressedDebug then
+        return Function_Stop;
+    end
+    return Function_Continue;
+end
+
+
+--[[function onEndSong()
+    -- customBars.lua
+
+	setProperty('timeBarOverlay.visible', false);
+	return Function_Continue;
+end]]--
+
+function onEvent(name, value1, value2)
+    -- winningIcons.lua
+
+	if name == 'Change Character' then
+		makeIcons();
+	end
+
+	--print('Event triggered: ', name, value1, value2);
+end
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-- █▄░█ █▀█ █▀█ █▀▄▀█ ▄▀█ █░░   █▀▀ █░█ █▄░█ █▀▀ ▀█▀ █ █▀█ █▄░█ █▀   █▀▀ █▀█ █▀█ █▀▄▀█   █▀█ ▀█▀ █░█ █▀▀ █▀█   █▀ █▀▀ █▀█ █ █▀█ ▀█▀ █▀ --
+-- █░▀█ █▄█ █▀▄ █░▀░█ █▀█ █▄▄   █▀░ █▄█ █░▀█ █▄▄ ░█░ █ █▄█ █░▀█ ▄█   █▀░ █▀▄ █▄█ █░▀░█   █▄█ ░█░ █▀█ ██▄ █▀▄   ▄█ █▄▄ █▀▄ █ █▀▀ ░█░ ▄█ --
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-- cheating.lua
+
+function cheatingOnCreatePost()
+    if songName == 'Get Back Here!' or songName == 'Get Back Here! Unfair' then
+        cheatingPossible = true;
+        --setProperty('debugKeysChart', null);
+        --setProperty('debugKeysChart', 'FlxKey.SIX');
+        setProperty('debugKeysChart[0]', 54);
+    end
+end
+
+function cheatingOnUpdatePost()
+    if keyboardJustPressed('SEVEN') and cheatingPossible and not pressedDebug then
+        --loadSong('alacrity', 2);
+		--setProperty('timeTxt.text', 'You should\'ve pressed 6.');
+		--setProperty('scoreTxt.text', 'You should\'ve pressed 6.');
+	    makeLuaSprite('black', 'blackvoid', 0, 0);
+        setObjectCamera('black', 'other');
+        setProperty('black.scale.x', 3);
+        setProperty('black.scale.y', 3);
+        setObjectOrder('black', getObjectOrder('creditsTitle') + 1);
+        addLuaSprite('black', true);
+
+        makeLuaText('shadowRealm', 'You should\'ve pressed 6.', 2000, 0, 0);
+        setObjectOrder('shadowRealm', getObjectOrder('creditsTitle') + 2);
+        addLuaText('shadowRealm');
+        setTextSize('shadowRealm', 50);
+        setTextBorder('shadowRealm', 5, '0xFF880000');
+        setObjectCamera('shadowRealm', 'other');
+        screenCenter('shadowRealm');
+
+        doTweenX('creepyTextScaleX', 'shadowRealm.scale', 2, 10, 'linear');
+        doTweenY('creepyTextScaleY', 'shadowRealm.scale', 2, 10, 'linear');
+
+        runTimer('shadowRealm', 5, 1);
+        setProperty('debugKeysChart[0]', nil);
+
+        soundFadeOut('', 0.25, 0);
+        --playMusic('a keyboard smash', 0, false);
+        --soundFadeOut('vocals', 0.25, 0);
+        --setProperty('vocals.volume', 0);
+        --setProperty('vocals.endTime', 0);
+        --setProperty('vocals.time', 0);
+
+        pressedDebug = true;
+    elseif pressedDebug then
+        setProperty('vocals.volume', 0);
+        --setPropertyFromClass('FlxG', 'sound.music.volume', 0);
+        setProperty('health', 1);
+    end
+end
+
+function cheatingOnSongStart()
+    if pressedDebug then
+        playMusic('a keyboard smash', 0, false);
+    end
+end
+
+-- customBars.lua
+
+--[[function customBarsOnCreatePost()
+	--debugPrint(getPropertyFromGroup('unspawnNotes', 0, 'texture'));
+	--debugPrint(getProperty('SONG.arrowSkin'));
+	for i = 0, getProperty('unspawnNotes.length') - 1 do
+		--if getPropertyFromGroup('unspawnNotes', i, 'texture') == 'noteAssetsNutshell' then
+		if getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'hurtNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'crucialNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteRed' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteBlue' then
+			--[[makeLuaSprite('healthBarOverlay', 'healthBarOverlay', getProperty('healthBar.x'), getProperty('healthBar.y') - 14);
+			setScrollFactor('healthBarOverlay', 0, 0);
+			setObjectCamera('healthBarOverlay', 'hud');
+			setObjectOrder('healthBarOverlay', getObjectOrder('healthBar') + 1);
+			setProperty('healthBarOverlay.antialiasing', false);
+			addLuaSprite('healthBarOverlay', false);
+
+			makeLuaSprite('timeBarOverlay', 'timeBarOverlay', getProperty('timeBar.x'), getProperty('timeBar.y') - 14);
+			setScrollFactor('timeBarOverlay', 0, 0);
+			setObjectCamera('timeBarOverlay', 'hud');
+			setObjectOrder('timeBarOverlay', getObjectOrder('timeBar') + 1);
+			setProperty('timeBarOverlay.antialiasing', false);
+			addLuaSprite('timeBarOverlay', false);--
+
+			--setProperty('timeBarOverlay.alpha', 0);
+
+			--setProperty('healthBarBG.visible', false);
+			--[[runHaxeCode(
+				game.healthBar.createImageBar(, ?fill:Null<FlxGraphicAsset>);
+			);--
+
+			loadGraphic('healthBarBG', 'healthBarOverlay');
+			setObjectOrder('healthBar', getObjectOrder('healthBarBG'));
+			--setProperty('healthBar.x', getProperty('healthBarBG.x') + 4);
+			--setProperty('healthBar.y', getProperty('healthBarBG.y') + 14);
+			setProperty('healthBarBG.yAdd', -14);
+			--setProperty('healthBar.width', getProperty('healthBarBG.width') - 8);
+			--setProperty('healthBar.height', getProperty('healthBarBG.height') - 8);
+			setProperty('healthBar.scale.y', 1.25);
+
+			break;
+		end
+	end
+end
+
+function customBarsOnUpdate()
+	setProperty('healthBarOverlay.alpha', getProperty('healthBar.alpha'));
+	setProperty('timeBarOverlay.alpha', getProperty('timeBar.alpha'));
+end]]--
+
+-- death.lua
+
+function deathOnCreatePost()
+	--debugPrint(getPropertyFromClass('GameOverSubstate', 'camFollow.x'));
+	
+	--debugPrint(songName);
+	--if (songName == 'Best Friend') then
+	if boyfriendName ~= 'bf' and boyfriendName ~= 'bf-pixel' and boyfriendName ~= 'bf-holding-gf' then
+		makeAnimatedLuaSprite('chaseGameOver', 'characters/chaseGameOver', 400, 100);
+		setObjectCamera('chaseGameOver', 'hud');
+		setProperty('chaseGameOver.scale.x', 3);
+		setProperty('chaseGameOver.scale.y', 3);
+		setProperty('chaseGameOver.antialiasing', false);
+		addAnimationByPrefix('chaseGameOver', 'open', 'Mouth Open', 24, true);
+		addAnimationByPrefix('chaseGameOver', 'closed', 'Mouth Closed', 24, true);
+		setScrollFactor('chaseGameOver', 0, 0);
+		setProperty('chaseGameOver.alpha', 0);
+
+		--setPropertyFromClass('GameOverSubstate', 'camFollow.x', getProperty('boyfriend.x'));
+		--setPropertyFromClass('GameOverSubstate', 'camFollow.y', getProperty('boyfriend.y'));
+		--setPropertyFromClass('GameOverSubstate', 'updateCamera', true);
+		setPropertyFromClass('GameOverSubstate', 'characterName', 'chaseGameOver'); --Character json file for the death animation
+		setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'micDrop'); --put in mods/sounds/
+		--setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'gameOver'); --put in mods/music/
+		--setPropertyFromClass('GameOverSubstate', 'endSoundName', 'gameOverEnd'); --put in mods/music/
+	end
+end
+
+function deathOnUpdate()
+	--if getProperty('boyfriend.animation.curAnim.name') == 'firstDeath' and getProperty('boyfriend.animation.curAnim.finished') and getProperty('boyfriend.startedDeath') then
+		--characterPlayAnim('boyfriend', 'deathLoop', true);
+	--end
+	if getProperty('boyfriend.startedDeath') then
+		setProperty('chaseGameOver.alpha', 1);
+	end
+end
+
+function deathOnGameOverStart()
+	--setProperty('inGameOver', false);
+	--setProperty('persistentUpdate', true);
+	--setProperty('persistentDraw', true);
+	--runTimer('chaseOpenMouth', 0.01, 1);
+	--setPropertyFromClass('GameOverSubstate', 'characterName', 'chaseGameOver');
+	--cameraSetTarget('boyfriend');
+
+	setProperty('boyfriend.alpha', 0);
+	addLuaSprite('chaseGameOver');
+	objectPlayAnimation('chaseGameOver', 'open', true);
+
+	--setProperty('inGameOver', true);
+	--return Function_Continue;
+end
+
+function deathOnGameOverConfirm()
+	objectPlayAnimation('chaseGameOver', 'closed', true);
+	cameraFade('hud', '0xFF000000', 2, true);
+	--doTweenAlpha('chaseGameOver', 'alpha', 0, 3, 'linear');
+end
+
+-- iconOffsets.lua
+
+function iconOffsetsOnUpdatePost()
+	--if tag == 'iconOffsets' then
+	--debugPrint('icon timer');
+	--Reset offsets to 0
+	iconP1X = 0;
+	iconP1Y = 0;
+	iconP2X = 0;
+	iconP2Y = 0;
+
+	--debugPrint(boyfriendName);
+
+	local bf = getProperty('iconP1.char');
+	local dad = getProperty('iconP2.char');
+
+	--        Icon name                                Offset x, y
+	if (bf == 'chaseImpostor') then iconP1X, iconP1Y = -10, -8;
+	elseif (bf == 'chaseInfected') then iconP1X, iconP1Y = -10, -8;
+	elseif (bf == 'adamCrewmate') then iconP1X, iconP1Y = -10, 8;
+	elseif (bf == 'adamInfected') then iconP1X, iconP1Y = -10, 8;
+	elseif (bf == 'chaseNutshell') then iconP2X, iconP2Y = 0, -8;
+	elseif (bf == 'chaseWorried') then iconP2X, iconP2Y = 0, -8;
+	elseif (bf == 'chaseFlipnoteRed') then iconP2X, iconP2Y = 0, -8;
+	elseif (bf == 'chaseFlipnoteBlue') then iconP2X, iconP2Y = 0, -8;
+	elseif (bf == 'jimNutshell') then iconP2X, iconP2Y = 0, -20;
+	end
+
+	--Copy and paste bf offset code here (or vice versa) and flip the sign of the X value
+	if (dad == 'chaseImpostor') then iconP2X, iconP2Y = 10, -8;
+	elseif (dad == 'chaseInfected') then iconP1X, iconP1Y = 10, -8;
+	elseif (dad == 'adamCrewmate') then iconP2X, iconP2Y = 10, 8;
+	elseif (dad == 'adamInfected') then iconP1X, iconP1Y = 10, 8;
+	elseif (dad == 'chaseNutshell') then iconP2X, iconP2Y = 0, -8;
+	elseif (dad == 'chaseWorried') then iconP2X, iconP2Y = 0, -8;
+	elseif (dad == 'chaseFlipnoteRed') then iconP2X, iconP2Y = 0, -8;
+	elseif (dad == 'chaseFlipnoteBlue') then iconP2X, iconP2Y = 0, -8;
+	elseif (dad == 'jimNutshell') then iconP2X, iconP2Y = 0, -20;
+	end
+	--debugPrint('test');
+
+	--Set offsets
+	setProperty('iconP1.offset.x', iconP1X);
+	setProperty('iconP1.offset.y', iconP1Y);
+	setProperty('iconP2.offset.x', iconP2X);
+	setProperty('iconP2.offset.y', iconP2Y);
+
+	setProperty('bfIcon.offset.x', iconP1X);
+	setProperty('bfIcon.offset.y', iconP1Y);
+	setProperty('dadIcon.offset.x', iconP2X);
+	setProperty('dadIcon.offset.y', iconP2Y);
+
+	--setPropertyFromGroup('iconP1.iconOffsets', 0, 0, iconP1X);
+	--debugPrint(getPropertyFromGroup('iconP1.iconOffsets', 0, 0));
+	--[[setProperty('iconP1.offset.y', iconP1Y);
+	setProperty('iconP2.offset.x', iconP2X);
+	setProperty('iconP2.offset.y', iconP2Y);
+
+	setProperty('bfIcon.offset.x', iconP1X);
+	setProperty('bfIcon.offset.y', iconP1Y);
+	setProperty('dadIcon.offset.x', iconP2X);
+	setProperty('dadIcon.offset.y', iconP2Y);]]--
+
+	--setProperty('iconP2.x', iconP2DefaultX + iconP2X);
+	--iconP2DefaultX = getProperty('iconP2.x') - iconP2X;
+	--setProperty('iconP2.x', 100);
+	--doTweenX('iconP2TweenX', 'iconP2', 100, 0, 'linear');
+
+	--doTweenX('iconP2TweenX', 'iconP2', iconP2DefaultX + iconP2X, 0, 'linear');
+	--doTweenY('iconP2TweenY', 'iconP2', getProperty('healthBar.y') - 75 + iconP2Y, 0, 'linear');
+	--end
+end
+
+-- winningIcons.lua
+
+function winningIconsOnUpdatePost()
+	setProperty('bfIcon.x', getProperty('iconP1.x'));
+	setProperty('bfIcon.scale.x', getProperty('iconP1.scale.x'));
+	setProperty('bfIcon.scale.y', getProperty('iconP1.scale.y'));
+
+	setProperty('dadIcon.x', getProperty('iconP2.x'));
+	setProperty('dadIcon.scale.x', getProperty('iconP2.scale.x'));
+	setProperty('dadIcon.scale.y', getProperty('iconP2.scale.y'));
+
+	--debugPrint(getProperty('bfIcon.animation.curAnim'), getProperty('bfIcon.animation.finished'));
+	--if getProperty('healthBar.percent') < 20 and ((getProperty('bfIcon.animation.curAnim') ~= 'losing' and getProperty('bfIcon.animation.curAnim') ~= 'bfIcon.animation.curAnim') or (getProperty('dadIcon.animation.curAnim') ~= 'winning' and getProperty('dadIcon.animation.curAnim') ~= 'dadIcon.animation.curAnim')) then
+	if getProperty('healthBar.percent') < 20 then
+		if getProperty('bfIcon.animation.curAnim.name') ~= 'losing' or getProperty('dadIcon.animation.curAnim.name') ~= 'winning' then
+			objectPlayAnimation('bfIcon', 'losing', true);
+			objectPlayAnimation('dadIcon', 'winning', true);
+		end
+	elseif getProperty('healthBar.percent') > 80 then
+		if getProperty('bfIcon.animation.curAnim.name') ~= 'winning' or getProperty('dadIcon.animation.curAnim.name') ~= 'losing' then
+			objectPlayAnimation('bfIcon', 'winning', true);
+			objectPlayAnimation('dadIcon', 'losing', true);
+		end
+	elseif getProperty('bfIcon.animation.curAnim.name') ~= 'neutral' or getProperty('dadIcon.animation.curAnim.name') ~= 'neutral' then
+		objectPlayAnimation('bfIcon', 'neutral', true);
+		objectPlayAnimation('dadIcon', 'neutral', true);
+	end
+end
+
+-------------------------------------------------------------------
+-- █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█   █▀▀ █░█ █▄░█ █▀▀ ▀█▀ █ █▀█ █▄░█ █▀ --
+-- █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█   █▀░ █▄█ █░▀█ █▄▄ ░█░ █ █▄█ █░▀█ ▄█ --
+-------------------------------------------------------------------
+
+function makeIcons()
+	removeLuaSprite('bfIcon', true);
+	removeLuaSprite('dadIcon', true);
+	setProperty('iconP1.alpha', 1);
+	setProperty('iconP2.alpha', 1);
+
+	if getProperty('iconP1.char') == 'adamNutshell' or getProperty('iconP1.char') == 'adamAbuse' or getProperty('iconP1.char') == 'kristenNutshell' or getProperty('iconP1.char') == 'chaseNutshell' or getProperty('iconP1.char') == 'chaseAbuse' or getProperty('iconP1.char') == 'elliotNutshell' or getProperty('iconP1.char') == 'senpaiNutshell' or getProperty('iconP1.char') == 'dudeNutshell' or getProperty('iconP1.char') == 'jimNutshell' or getProperty('iconP1.char') == 'pjNutshell' or getProperty('iconP1.char') == 'dandyNutshell' or getProperty('iconP1.char') == 'jomjom412' or getProperty('iconP1.char') == 'dombomb64' then
+		makeBfIcon();
+	end
+
+	if getProperty('iconP2.char') == 'adamNutshell' or getProperty('iconP2.char') == 'adamAbuse' or getProperty('iconP2.char') == 'kristenNutshell' or getProperty('iconP2.char') == 'chaseNutshell' or getProperty('iconP2.char') == 'chaseAbuse' or getProperty('iconP2.char') == 'elliotNutshell' or getProperty('iconP2.char') == 'senpaiNutshell' or getProperty('iconP2.char') == 'dudeNutshell' or getProperty('iconP2.char') == 'jimNutshell' or getProperty('iconP2.char') == 'pjNutshell' or getProperty('iconP2.char') == 'dandyNutshell' or getProperty('iconP1.char') == 'jomjom412' or getProperty('iconP1.char') == 'dombomb64' then
+		makeDadIcon();
+	end
+end
+
+function makeBfIcon()
+	makeAnimatedLuaSprite('bfIcon', 'winningIcons/icon-' .. getProperty('iconP1.char'), getProperty('iconP1.x'), getProperty('iconP1.y'));
+
+	addAnimationByPrefix('bfIcon', 'winning', 'Winning', 24, true);
+	addAnimationByPrefix('bfIcon', 'neutral', 'Neutral', 24, true);
+	addAnimationByPrefix('bfIcon', 'losing', 'Losing', 24, true);
+
+	addLuaSprite('bfIcon', true);
+
+	setObjectCamera('bfIcon', 'hud');
+	setProperty('bfIcon.flipX', true);
+	objectPlayAnimation('bfIcon', 'neutral', true);
+	setObjectOrder('bfIcon', getObjectOrder('iconP1'));
+	setProperty('bfIcon.antialiasing', getProperty('iconP1.antialiasing'));
+
+	setProperty('iconP1.alpha', 0);
+end
+
+function makeDadIcon()
+	makeAnimatedLuaSprite('dadIcon', 'winningIcons/icon-' .. getProperty('iconP2.char'), getProperty('iconP2.x'), getProperty('iconP2.y'));
+
+	addAnimationByPrefix('dadIcon', 'winning', 'Winning', 24, true);
+	addAnimationByPrefix('dadIcon', 'neutral', 'Neutral', 24, true);
+	addAnimationByPrefix('dadIcon', 'losing', 'Losing', 24, true);
+
+	addLuaSprite('dadIcon', true);
+
+	setObjectCamera('dadIcon', 'hud');
+	--setProperty('dadIcon.flipX', true);
+	objectPlayAnimation('dadIcon', 'neutral', true);
+	setObjectOrder('dadIcon', getObjectOrder('iconP2'));
+	setProperty('dadIcon.antialiasing', getProperty('iconP2.antialiasing'));
+
+	setProperty('iconP2.alpha', 0);
+end

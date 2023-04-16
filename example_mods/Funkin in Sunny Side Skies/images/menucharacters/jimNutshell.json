@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "Idle",
+	"idle_anim": "Idle",
+	"position": [
+		130,
+		60
+	],
+	"scale": 1,
+	"image": "jimNutshell",
+	"flipX": false
+}

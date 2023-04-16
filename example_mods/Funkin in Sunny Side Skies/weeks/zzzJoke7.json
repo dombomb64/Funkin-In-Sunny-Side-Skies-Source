@@ -1,0 +1,32 @@
+{
+	"storyName": "Contradiction",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "pananananananana",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		108,
+		101,
+		118
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Contradiction",
+			"chase",
+			[
+				123,
+				114,
+				131
+			]
+		]
+	],
+	"weekCharacters": [
+		"bfRightBruh",
+		"bfRightBruh",
+		"hornieBf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Contradiction"
+}

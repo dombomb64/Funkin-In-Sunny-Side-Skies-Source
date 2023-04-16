@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				515,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Sing Left"
+		},
+		{
+			"offsets": [
+				70,
+				-60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Sing Down"
+		},
+		{
+			"offsets": [
+				110,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Sing Up"
+		},
+		{
+			"offsets": [
+				190,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Sing Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "thumbsUp",
+			"fps": 24,
+			"name": "Thumbs Up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/chaseAdamToyboy",
+	"position": [
+		170,
+		-40
+	],
+	"healthicon": "chaseNutshell",
+	"flip_x": false,
+	"healthbar_colors": [
+		120,
+		96,
+		144
+	],
+	"camera_position": [
+		-400,
+		-710
+	],
+	"sing_duration": 6.1,
+	"scale": 3
+}

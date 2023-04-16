@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Haybot",
+			"legoHaybot",
+			[
+				232,
+				111,
+				54
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "pananananananana",
+	"difficulties": "Hard, Unfair",
+	"weekCharacters": [
+		"bfRightBruh",
+		"bfRightBruh",
+		"hornieBf"
+	],
+	"storyName": "Haybot",
+	"weekName": "Haybot",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

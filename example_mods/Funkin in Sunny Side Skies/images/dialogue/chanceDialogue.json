@@ -1,0 +1,168 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		170,
+		0
+	],
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"animations": [
+		{
+			"idle_offsets": [
+				33,
+				0
+			],
+			"anim": "happy",
+			"loop_offsets": [
+				33,
+				0
+			],
+			"idle_name": "Chance Happy Idle",
+			"loop_name": "Chance Happy Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Neutral Idle",
+			"loop_name": "Chance Neutral Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "crying",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Crying Idle",
+			"loop_name": "Chance Crying Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Sad Idle",
+			"loop_name": "Chance Sad Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "excited",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Excited Idle",
+			"loop_name": "Chance Excited Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Smug Idle",
+			"loop_name": "Chance Smug Talk"
+		},
+		{
+			"loop_name": "Chance Naked Happy Talk",
+			"idle_offsets": [
+				33,
+				0
+			],
+			"idle_name": "Chance Naked Happy Idle",
+			"anim": "happyNaked",
+			"loop_offsets": [
+				33,
+				0
+			]
+		},
+		{
+			"loop_name": "Chance Naked Neutral Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Naked Neutral Idle",
+			"anim": "neutralNaked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Chance Naked Crying Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Naked Crying Idle",
+			"anim": "cryingNaked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Chance Naked Sad Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Naked Sad Idle",
+			"anim": "sadNaked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Chance Naked Excited Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Naked Excited Idle",
+			"anim": "excitedNaked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Chance Naked Smug Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chance Naked Smug Idle",
+			"anim": "smugNaked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "chanceDialogue"
+}

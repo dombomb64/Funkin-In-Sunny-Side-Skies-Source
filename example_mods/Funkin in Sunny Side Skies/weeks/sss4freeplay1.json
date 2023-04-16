@@ -1,0 +1,32 @@
+{
+	"storyName": "Teacher: What's so funny? Me: Nothing. My mind: Fish",
+	"difficulties": "Easy, Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "howWasWorkDad",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss4",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"dadLeft"
+	],
+	"songs": [
+		[
+			"Cross-Comic Clash",
+			"dudeNutshell",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Cross-Comic Clash"
+}

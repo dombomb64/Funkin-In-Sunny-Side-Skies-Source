@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-adam.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Losing0000" x="16" y="16" width="150" height="189" frameX="0" frameY="39" frameWidth="150" frameHeight="189"/>
+	<SubTexture name="Losing0001" x="182" y="16" width="150" height="189" frameX="0" frameY="39" frameWidth="150" frameHeight="189"/>
+	<SubTexture name="Losing0002" x="348" y="16" width="150" height="189" frameX="0" frameY="39" frameWidth="150" frameHeight="189"/>
+	<SubTexture name="Losing0003" x="514" y="16" width="150" height="189" frameX="0" frameY="39" frameWidth="150" frameHeight="189"/>
+	<SubTexture name="Neutral0000" x="680" y="16" width="150" height="150"/>
+	<SubTexture name="Winning0000" x="846" y="16" width="150" height="150"/>
+</TextureAtlas>

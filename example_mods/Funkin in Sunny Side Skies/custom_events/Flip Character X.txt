@@ -1,0 +1,12 @@
+Flip a character's sprite on the X axis.
+
+Value 1: Character to flip
+Value 2: None
+
+NOTE: Characters that get tagged in and out
+for the same variable aren't the same object,
+so you may need to adjust the timing of the
+event until after the character is swapped out
+, omit the event entirely if the character was
+flipped previously, or run this event when
+you wouldn't think to.

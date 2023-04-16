@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="maximumborkdriveanim.png">
+	<!-- Ignore these comments lol -->
+	<!-- This is a modified version of the alphabet.xml from this mod and I'm too scared to delete the comments in case it's like a watermark XD -->
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="maximumborkdriveanim0000" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="maximumborkdriveanim0001" x="200" y="0" width="200" height="200"/>
+	<SubTexture name="maximumborkdriveanim0002" x="0" y="200" width="200" height="200"/>
+	<SubTexture name="maximumborkdriveanim0003" x="200" y="200" width="200" height="200"/>
+</TextureAtlas>

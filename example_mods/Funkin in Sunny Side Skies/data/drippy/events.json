@@ -1,0 +1,49 @@
+{
+	"song": {
+		"speed": 2,
+		"stage": "amongUsBg",
+		"player1": "adamCrewmate",
+		"player2": "chaseImpostor",
+		"player3": null,
+		"events": [
+			[
+				25200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"chugJugDance"
+					],
+					[
+						"Change Character",
+						"bf",
+						"chugJugDance"
+					]
+				]
+			],
+			[
+				39600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"chaseImpostor"
+					],
+					[
+						"Change Character",
+						"bf",
+						"adamCrewmate"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "chugJugDance",
+		"bpm": 200,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Drippy"
+	}
+}

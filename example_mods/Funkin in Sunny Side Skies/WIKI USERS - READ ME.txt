@@ -1,0 +1,1 @@
+You might notice a folder in the images folder called "wikiImages". I'd prefer if the wiki used my static idle images instead of the first frame of the characters' idles. Don't give them chronic back pain. XD

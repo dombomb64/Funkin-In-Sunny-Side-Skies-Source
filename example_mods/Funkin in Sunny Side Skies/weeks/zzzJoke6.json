@@ -1,0 +1,32 @@
+{
+	"storyName": "Light Gray Stained Glass Pane",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "pananananananana",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Light Gray Stained Glass Pane",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"weekCharacters": [
+		"bfRightBruh",
+		"bfRightBruh",
+		"hornieBf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Light Gray Stained Glass Pane"
+}

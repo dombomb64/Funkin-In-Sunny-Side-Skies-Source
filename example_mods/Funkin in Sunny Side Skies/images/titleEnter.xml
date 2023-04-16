@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="titleEnter.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ENTER PRESSED0000" x="16" y="132" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="ENTER PRESSED0001" x="16" y="16" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="ENTER PRESSED0002" x="16" y="132" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="ENTER PRESSED0003" x="16" y="16" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="ENTER PRESSED0004" x="16" y="132" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="ENTER PRESSED0005" x="16" y="16" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="ENTER PRESSED0006" x="16" y="132" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="ENTER PRESSED0007" x="16" y="16" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+	<SubTexture name="Press Enter to Begin0000" x="16" y="16" width="500" height="100" frameX="30" frameY="0" frameWidth="500" frameHeight="100"/>
+</TextureAtlas>

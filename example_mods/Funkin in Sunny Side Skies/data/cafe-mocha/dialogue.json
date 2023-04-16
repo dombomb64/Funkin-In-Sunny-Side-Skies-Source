@@ -1,0 +1,276 @@
+{
+	"dialogue": [
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "I'll have an extra large iced salted caramel cafe mocha..."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...with two pumps of vanilla, four pumps of hazelnut, extra mocha sauce, chips..."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "...chocolate drizzle, extra caramel drizzle, and a scoop of vanilla bean powder!"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Also, extra whip, please!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.1,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "...$5.87."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "And the name for the order is-"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Chase."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.06,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "YOU ALREADY KNOW?!"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "Y-y-you must be a wizard or something!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.075,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "...I'm not a wizard."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.075,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "You come here... every day."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "A-anyway! The weekend is almost here! That's two whole weeks of endless potential!"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "How are you gonna spend yours, Adam?"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.06,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hiking? Jetskiing? Karaoke?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "I'm working."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "What? But that's boring! Aren't you going to do anything fun?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "I don't really go out that much."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Then do you have friends over?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "No one to really invite."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.075,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "No... friends?"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.075,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "That's... So sad..."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Wait! I have an idea!"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "I brought some microphones and a boombox for music class! Wanna-"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "No, thanks."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "angry",
+			"expression": "sad",
+			"text": "Why not?!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "This is where I work."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.1,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.1,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "..."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.075,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "~~~"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.075,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "stare",
+			"text": "..."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.065,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.065,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamWorkBlackDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Fine."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yaayy! Thank you!"
+		}
+	]
+}

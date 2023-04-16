@@ -1,0 +1,51 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		30,
+		-30
+	],
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sett Neutral Idle",
+			"loop_name": "Sett Neutral Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "stressed",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sett Stressed Idle",
+			"loop_name": "Sett Stressed Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sett Happy Idle",
+			"loop_name": "Sett Happy Talk"
+		}
+	],
+	"image": "settDialogueFlip"
+}

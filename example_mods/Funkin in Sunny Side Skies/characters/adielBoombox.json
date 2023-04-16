@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "Dance Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Dance Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "Cheer",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "Cry",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "Scared",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "scared-loop",
+			"fps": 24,
+			"name": "Scared Loop",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/adielBoombox",
+	"position": [
+		-100,
+		50
+	],
+	"healthicon": "totebotWither",
+	"flip_x": false,
+	"healthbar_colors": [
+		245,
+		191,
+		137
+	],
+	"camera_position": [
+		-520,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 3
+}

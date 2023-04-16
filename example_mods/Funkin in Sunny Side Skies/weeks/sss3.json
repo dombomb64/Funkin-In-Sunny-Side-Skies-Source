@@ -1,0 +1,41 @@
+{
+	"storyName": "UNFAMILIAR",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "sss3",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Unfamiliar",
+			"adielNutshell",
+			[
+				157,
+				104,
+				84
+			]
+		],
+		[
+			"Raveyard",
+			"adielNutshell",
+			[
+				157,
+				104,
+				84
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "UNFAMILIAR",
+	"hiddenUntilUnlocked": false
+}

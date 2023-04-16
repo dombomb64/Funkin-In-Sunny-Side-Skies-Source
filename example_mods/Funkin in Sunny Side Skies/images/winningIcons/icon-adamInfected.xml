@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-adamInfected.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Losing0000" x="16" y="16" width="150" height="150" frameX="-10" frameY="-9" frameWidth="172" frameHeight="171"/>
+	<SubTexture name="Losing0001" x="16" y="16" width="150" height="150" frameX="0" frameY="-3" frameWidth="172" frameHeight="171"/>
+	<SubTexture name="Losing0002" x="16" y="16" width="150" height="150" frameX="-6" frameY="-21" frameWidth="172" frameHeight="171"/>
+	<SubTexture name="Losing0003" x="16" y="16" width="150" height="150" frameX="-22" frameY="0" frameWidth="172" frameHeight="171"/>
+	<SubTexture name="Neutral0000" x="182" y="16" width="150" height="150" frameX="-6" frameY="-4" frameWidth="164" frameHeight="160"/>
+	<SubTexture name="Neutral0001" x="182" y="16" width="150" height="150" frameX="0" frameY="0" frameWidth="164" frameHeight="160"/>
+	<SubTexture name="Neutral0002" x="182" y="16" width="150" height="150" frameX="-14" frameY="-10" frameWidth="164" frameHeight="160"/>
+	<SubTexture name="Neutral0003" x="182" y="16" width="150" height="150" frameX="-4" frameY="-10" frameWidth="164" frameHeight="160"/>
+	<SubTexture name="Winning0000" x="16" y="182" width="150" height="150" frameX="-4" frameY="-2" frameWidth="158" frameHeight="156"/>
+	<SubTexture name="Winning0001" x="16" y="182" width="150" height="150" frameX="0" frameY="0" frameWidth="158" frameHeight="156"/>
+	<SubTexture name="Winning0002" x="16" y="182" width="150" height="150" frameX="-8" frameY="-4" frameWidth="158" frameHeight="156"/>
+	<SubTexture name="Winning0003" x="16" y="182" width="150" height="150" frameX="-2" frameY="-6" frameWidth="158" frameHeight="156"/>
+</TextureAtlas>

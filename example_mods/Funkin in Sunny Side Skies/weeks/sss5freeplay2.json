@@ -1,0 +1,32 @@
+{
+	"storyName": "Post this GIF to make Jacob instantly laugh",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "gallkidneys",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss5",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"dadDead",
+		"bfDead",
+		"gfDead"
+	],
+	"songs": [
+		[
+			"Sand Land",
+			"chaseFlipnoteRed",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Sand Land"
+}

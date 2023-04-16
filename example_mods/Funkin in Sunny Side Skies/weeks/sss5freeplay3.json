@@ -1,0 +1,32 @@
+{
+	"storyName": "How's your Monday, unknown social media manager person? i think im depressed lmao",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "garfieldWasThePresident",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss5",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"poopyFarts96",
+		"amongDrip",
+		"amogus"
+	],
+	"songs": [
+		[
+			"Infected",
+			"adamInfected",
+			[
+				78,
+				107,
+				55
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Infected"
+}

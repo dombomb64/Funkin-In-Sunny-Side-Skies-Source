@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="adamChallengEdd.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Idle0001" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Idle0002" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Idle0003" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Idle0004" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0005" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0006" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0007" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0008" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0009" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Silent0000" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Talk0000" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Talk0001" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Talk0002" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Talk0003" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Talk0004" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Talk0005" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Talk0006" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Talk0007" x="544" y="544" width="512" height="512"/>
+</TextureAtlas>

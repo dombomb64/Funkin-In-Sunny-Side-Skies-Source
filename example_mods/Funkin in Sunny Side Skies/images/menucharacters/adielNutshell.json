@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Idle",
+	"image": "adielNutshell",
+	"position": [
+		130,
+		60
+	],
+	"flipX": true,
+	"scale": 1,
+	"confirm_anim": "M Dad Idle"
+}

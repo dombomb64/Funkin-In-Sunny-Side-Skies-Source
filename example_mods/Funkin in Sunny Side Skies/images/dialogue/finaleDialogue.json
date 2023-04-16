@@ -1,0 +1,207 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		428,
+		180
+	],
+	"no_antialiasing": true,
+	"scale": 4.29999999999999,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "1",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "1-",
+			"loop_name": "1-"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "2",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "2-",
+			"idle_name": "2-"
+		},
+		{
+			"loop_name": "3-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "3-",
+			"anim": "3",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "4-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "4-",
+			"anim": "4",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "5-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "5-",
+			"anim": "5",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "6-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "6-",
+			"anim": "6",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "7-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "7-",
+			"anim": "7",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "8-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "8-",
+			"anim": "8",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "9-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "9-",
+			"anim": "9",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "10-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "10-",
+			"anim": "10",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "11-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "11-",
+			"anim": "11",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "12-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "12-",
+			"anim": "12",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "13-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "13-",
+			"anim": "13",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "14-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "14-",
+			"anim": "14",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "15-",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "15-",
+			"anim": "15",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "finaleDialogue"
+}

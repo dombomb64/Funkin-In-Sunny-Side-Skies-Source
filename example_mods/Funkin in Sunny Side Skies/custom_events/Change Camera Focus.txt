@@ -1,0 +1,5 @@
+Changes which character the camera is focused on.
+
+Value 1: The character to focus on
+e.g. boyfriend, dad, gf, etc.
+Value 2: None

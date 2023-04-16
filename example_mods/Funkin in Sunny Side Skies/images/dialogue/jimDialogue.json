@@ -1,0 +1,77 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		100,
+		0
+	],
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jim Happy Idle",
+			"loop_name": "Jim Happy Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jim Neutral Idle",
+			"loop_name": "Jim Neutral Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jim Smug Idle",
+			"loop_name": "Jim Smug Talk"
+		},
+		{
+			"loop_name": "Jim Annoyed Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jim Annoyed Idle",
+			"anim": "annoyed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Jim Prepared Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Jim Prepared Idle",
+			"anim": "Prepared",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "jimDialogue"
+}

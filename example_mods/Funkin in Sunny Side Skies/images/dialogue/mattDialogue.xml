@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mattDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Matt Blushing Idle0000" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0000" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0001" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0002" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0003" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0004" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0005" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0006" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Blushing Talk0007" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Ded0000" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Matt Gesturing No0000" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Idle0000" x="16" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0000" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0001" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0002" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0003" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0004" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0005" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0006" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Matt Neutral Talk0007" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Idle0000" x="16" y="1414" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0000" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0001" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0002" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0003" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0004" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0005" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0006" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Matt Stressed Talk0007" x="482" y="482" width="450" height="450"/>
+</TextureAtlas>

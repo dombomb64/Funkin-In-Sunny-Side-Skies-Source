@@ -1,0 +1,688 @@
+{
+	"song": {
+		"speed": 2.1,
+		"stage": "collegeFairBg",
+		"player1": "bfNutshell",
+		"player2": "chaseAdamToyboy",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						"0.6"
+					]
+				]
+			],
+			[
+				9818.18181818182,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				10363.6363636364,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				10909.0909090909,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				18545.4545454546,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				19090.9090909091,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				19636.3636363636,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				20727.2727272727,
+				[
+					[
+						"Change Default Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				21545.4545454546,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				29454.5454545455,
+				[
+					[
+						"Change Default Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				30272.7272727273,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				38181.8181818182,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				39272.7272727273,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				41454.5454545455,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				42545.4545454545,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				43090.9090909091,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				43636.3636363636,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				44727.2727272727,
+				[
+					[
+						"Change Default Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				46909.0909090909,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				50181.8181818182,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				50727.2727272727,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				51272.7272727273,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				51818.1818181818,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				52363.6363636363,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				53454.5454545454,
+				[
+					[
+						"Change Default Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				54545.4545454545,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				62181.8181818181,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				62727.2727272727,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				63272.7272727272,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				69818.1818181818,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				70363.6363636363,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				70909.0909090908,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				71454.5454545454,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				71999.9999999999,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				79636.3636363635,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				80181.8181818181,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				80727.2727272726,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				87272.7272727272,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				87818.1818181817,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				88363.6363636363,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				88909.0909090908,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				89454.5454545453,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				93818.1818181817,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				94363.6363636362,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				94909.0909090908,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				95454.5454545453,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				102545.454545454,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				103090.909090909,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				103636.363636363,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				104181.818181818,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				104727.272727273,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				111272.727272727,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				111818.181818182,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				112363.636363636,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				112909.090909091,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				113454.545454545,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Change Default Zoom",
+						"0.65",
+						""
+					]
+				]
+			],
+			[
+				120545.454545454,
+				[
+					[
+						"Change Default Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				121090.909090909,
+				[
+					[
+						"Change Default Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				121636.363636363,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				124363.636363636,
+				[
+					[
+						"Change Default Zoom",
+						"0.8",
+						""
+					],
+					[
+						"Play Animation",
+						"thumbsUp",
+						"dad"
+					]
+				],
+				null,
+				""
+			],
+			[
+				125181.818181818,
+				[
+					[
+						"Play Animation",
+						"singUP",
+						"bf"
+					]
+				],
+				null,
+				""
+			],
+			[
+				126545.454545454,
+				[
+					[
+						"Change Default Zoom",
+						"0.6",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashesNutshell",
+		"validScore": false,
+		"gfVersion": "noGf",
+		"bpm": 220,
+		"arrowSkin": "noteAssetsNutshell",
+		"needsVoices": true,
+		"song": "Toyboy"
+	}
+}

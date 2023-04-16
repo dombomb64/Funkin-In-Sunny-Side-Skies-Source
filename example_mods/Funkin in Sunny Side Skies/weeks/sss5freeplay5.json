@@ -1,0 +1,32 @@
+{
+	"storyName": "Are you Prey?",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "ralseiPlaysPiano",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss5",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"legoPiece26047",
+		"bfPoint",
+		"gfScared"
+	],
+	"songs": [
+		[
+			"Cinnamon Roll",
+			"chaseFlowerCrown",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Cinnamon Roll"
+}

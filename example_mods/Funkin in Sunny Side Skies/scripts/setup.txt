@@ -1,0 +1,443 @@
+--------------------------------------
+-- █░█ ▄▀█ █▀█ █ ▄▀█ █▄▄ █░░ █▀▀ █▀ --
+-- ▀▄▀ █▀█ █▀▄ █ █▀█ █▄█ █▄▄ ██▄ ▄█ --
+--------------------------------------
+
+-- General
+
+local isNutshell = false;
+local isFlipnote = false;
+local isCustomStyle = false;
+
+---------------------------------------------------------------------
+-- █▄░█ █▀█ █▀█ █▀▄▀█ ▄▀█ █░░   █▀▀ █░█ █▄░█ █▀▀ ▀█▀ █ █▀█ █▄░█ █▀ --
+-- █░▀█ █▄█ █▀▄ █░▀░█ █▀█ █▄▄   █▀░ █▄█ █░▀█ █▄▄ ░█░ █ █▄█ █░▀█ ▄█ --
+---------------------------------------------------------------------
+
+function onCreate()
+    --luaDebugMode = true;
+    --callScript('Funkin in Sunny Side Skies/scripts/nutshellUi.lua', 'checkNutshell', {}); -- Make sure the variable is correct
+    checkStyle();
+
+    gfNoScroll();
+    hurtNoteSkin();
+    pixelArrows();
+    songInfo();
+	--debugPrint('test');
+    --debugPrint(getGlobalFromScript('Funkin in Sunny Side Skies/scripts/nutshellUi.lua', 'isNutshell'));
+    --debugPrint(checkFileExists('Funkin in Sunny Side Skies/scripts/nutshellUi.lua'));
+end
+
+function onCreatePost()
+	--debugPrint('test');
+	botplayText();
+	customBars();
+    pixelIcons();
+    stepmania();
+
+    close();
+end
+
+-------------------------------------------------------------------------------------------------
+-- █▀█ ▀█▀ █░█ █▀▀ █▀█   █▀ █▀▀ █▀█ █ █▀█ ▀█▀ █▀   ▄▀█ █▀   █▀▀ █░█ █▄░█ █▀▀ ▀█▀ █ █▀█ █▄░█ █▀ --
+-- █▄█ ░█░ █▀█ ██▄ █▀▄   ▄█ █▄▄ █▀▄ █ █▀▀ ░█░ ▄█   █▀█ ▄█   █▀░ █▄█ █░▀█ █▄▄ ░█░ █ █▄█ █░▀█ ▄█ --
+-------------------------------------------------------------------------------------------------
+
+function botplayText()
+    if botPlay then
+        setProperty('botplayTxt.text', makeBotplayText());
+    end
+end
+
+function customBars()
+	--debugPrint(getPropertyFromGroup('unspawnNotes', 0, 'texture'));
+	--debugPrint(getProperty('SONG.arrowSkin'));
+	for i = 0, getProperty('unspawnNotes.length') - 1 do
+		--if getPropertyFromGroup('unspawnNotes', i, 'texture') == 'noteAssetsNutshell' then
+		if getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'hurtNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'crucialNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteRed' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteBlue' then
+			--[[makeLuaSprite('healthBarOverlay', 'healthBarOverlay', getProperty('healthBar.x'), getProperty('healthBar.y') - 14);
+			setScrollFactor('healthBarOverlay', 0, 0);
+			setObjectCamera('healthBarOverlay', 'hud');
+			setObjectOrder('healthBarOverlay', getObjectOrder('healthBar') + 1);
+			setProperty('healthBarOverlay.antialiasing', false);
+			addLuaSprite('healthBarOverlay', false);
+
+			makeLuaSprite('timeBarOverlay', 'timeBarOverlay', getProperty('timeBar.x'), getProperty('timeBar.y') - 14);
+			setScrollFactor('timeBarOverlay', 0, 0);
+			setObjectCamera('timeBarOverlay', 'hud');
+			setObjectOrder('timeBarOverlay', getObjectOrder('timeBar') + 1);
+			setProperty('timeBarOverlay.antialiasing', false);
+			addLuaSprite('timeBarOverlay', false);]]--
+
+			--setProperty('timeBarOverlay.alpha', 0);
+
+			--setProperty('healthBarBG.visible', false);
+			--[[runHaxeCode(
+				game.healthBar.createImageBar(, ?fill:Null<FlxGraphicAsset>);
+			);]]--
+
+			loadGraphic('healthBarBG', 'healthBarOverlay');
+			setObjectOrder('healthBar', getObjectOrder('healthBarBG'));
+			--setProperty('healthBar.x', getProperty('healthBarBG.x') + 4);
+			--setProperty('healthBar.y', getProperty('healthBarBG.y') + 14);
+			setProperty('healthBarBG.yAdd', -14);
+			--setProperty('healthBar.width', getProperty('healthBarBG.width') - 8);
+			--setProperty('healthBar.height', getProperty('healthBarBG.height') - 8);
+			setProperty('healthBar.scale.y', 1.25);
+			
+			loadGraphic('timeBarBG', 'timeBarOverlay');
+			setObjectOrder('timeBar', getObjectOrder('timeBarBG'));
+			setProperty('timeBarBG.yAdd', -14);
+			setProperty('timeBar.scale.y', 1.25);
+			
+			--[[runHaxeCode(
+				//game.timeBar.createFilledBar(0x88000000, 0x88FFFFFF);
+				game.timeBar.createFilledBar(0xFFFF0000, 0xFFFF0000);
+			);]]--
+
+			break;
+		end
+	end
+end
+
+function gfNoScroll()
+	if (getProperty('gf.curCharacter') == 'mattBgNutshell' or getProperty('gf.curCharacter') == 'chaseBoombox' or getProperty('gf.curCharacter') == 'adielBoombox' or getProperty('gf.curCharacter') == 'chaseBoomboxFlipnoteRed' or getProperty('gf.curCharacter') == 'chaseBoomboxFlipnoteBlue') then
+		--debugPrint('matt');
+		setScrollFactor('gfGroup', 1, 1);
+	end
+end
+
+function hurtNoteSkin()
+	--[[--debugPrint(getPropertyFromGroup('unspawnNotes', 0, 'noteSplashTexture'));
+
+	local isNutshell = false;
+
+	for i = 0, getProperty('unspawnNotes.length') - 1 do
+		if getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesNutshell' then
+			isNutshell = true;
+			precacheImage('hurtNoteSplashesNutshell');
+			break;
+		end
+	end
+
+	--debugPrint(isNutshell);]]--
+    
+    --[[if isNutshell then
+        precacheImage('hurtNoteSplashesNutshell');
+    end]]--
+
+	for i = 0, getProperty('unspawnNotes.length') - 1 do
+		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Hurt Note' and isNutshell then
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'hurtNoteAssetsNutshell');
+			setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'hurtNoteSplashesNutshell');
+		elseif getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Hurt Note' then
+			setPropertyFromGroup('unspawnNotes', i, 'earlyHitMult', 0.25);
+			setPropertyFromGroup('unspawnNotes', i, 'lateHitMult', 0.5);
+		end
+	end
+end
+
+function pixelIcons()
+	-- If the opponent has a pixel icon
+	if string.find(string.lower(getProperty('iconP2.char')), 'nutshell') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'pixel') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'senpai') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'spirit') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'adam') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'chase') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'kristen') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'jom') ~= nil or string.find(string.lower(getProperty('iconP2.char')), 'dom') ~= nil then
+		setProperty('iconP2.antialiasing', false);
+		setProperty('dadIcon.antialiasing', false);
+		--setBlendMode('iconP2', 'add');
+		--debugPrint('pixel icon');
+	end
+
+	-- If the player has a pixel icon
+	if string.find(string.lower(getProperty('iconP1.char')), 'nutshell') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'pixel') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'senpai') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'spirit') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'adam') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'chase') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'kristen') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'jom') ~= nil or string.find(string.lower(getProperty('iconP1.char')), 'dom') ~= nil then
+		setProperty('iconP1.antialiasing', false);
+		setProperty('bfIcon.antialiasing', false);
+	end
+end
+
+function pixelArrows()
+	for i = 0, getProperty('unspawnNotes.length') - 1 do
+		if getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'hurtNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'crucialNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteRed' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteBlue' then
+			isNutshell = true;
+			--debugPrint('nutshell');
+			break;
+		end
+	end
+
+	if isNutshell then
+    --if getGlobalFromScript('Funkin in Sunny Side Skies/scripts/nutshellUi.lua', 'isNutshell') then
+		for i = 0, getProperty('unspawnNotes.length') - 1 do
+			setPropertyFromGroup('unspawnNotes', i, 'antialiasing', false);
+		end
+	end
+end
+
+function songInfo()
+    --[[runHaxeCode(
+        var songTitle = new Alphabet(0, 0, 'barney burger', true);
+		songTitle.screenCenter();
+		songTitle.cameras = [game.camHUD];
+		game.add(songTitle);
+		songTitle.changeText(FlxG.state.SONG.swagSong);
+    );]]--
+
+    -- The credits need to be checked for if they're empty in which all the text will be hidden (Used for the secret image viewer)
+    local creditsText = makeCredits();
+
+    -- Make flavor text
+    makeLuaText('nowPlaying', 'Now Playing:', 1000, 0, 50);
+    setTextSize('nowPlaying', 30);
+    setTextAlignment('nowPlaying', 'center');
+    screenCenter('nowPlaying', 'x');
+    setObjectCamera('nowPlaying', 'other');
+    if creditsText == '' then
+        setTextString('nowPlaying', '');
+    end
+    addLuaText('nowPlaying', true);
+    
+    -- Put brackets around the difficulty if it's in the song name
+    local songTitle = string.gsub(songName, 'Unfair', '[Unfair]');
+
+    -- Make title
+    makeLuaText('songTitle', 'a string that is so long you would not believe hhhhhhhhhhhhhhhhhhhhhhhh', 1000, 0, 75);
+    setProperty('songTitle.autoSize', true);
+    setProperty('songTitle.wordWrap', false);
+    setTextAlignment('songTitle', 'center');
+    setTextString('songTitle', songTitle);
+    resizeText();
+    screenCenter('songTitle', 'x');
+    setObjectCamera('songTitle', 'other');
+    if creditsText == '' then
+        setTextString('songTitle', '');
+    end
+    addLuaText('songTitle', true);
+
+    -- Make credits
+    makeLuaText('creditsTitle', '[CREDITS MISSING]', 1000, 0, 150);
+    setTextSize('creditsTitle', 30);
+    setTextAlignment('creditsTitle', 'center');
+    setTextString('creditsTitle', creditsText);
+    screenCenter('creditsTitle', 'x');
+    setObjectCamera('creditsTitle', 'other');
+    addLuaText('creditsTitle', true);
+
+    -- Reposition for downscroll
+    if downscroll then
+        local downscrollOffset = 530 - getProperty('creditsTitle.height');
+        setProperty('nowPlaying.y', 50 + downscrollOffset);
+        setProperty('songTitle.y', 75 + downscrollOffset);
+        setProperty('creditsTitle.y', 150 + downscrollOffset);
+    end
+
+    -- Fade out
+    doTweenAlpha('nowPlayingFade', 'nowPlaying', 0, 3, 'circInOut');
+    doTweenAlpha('songTitleFade', 'songTitle', 0, 3, 'circInOut');
+    doTweenAlpha('creditsTitleFade', 'creditsTitle', 0, 3, 'circInOut');
+
+    -- Close the script
+    --close(true);
+    --debugPrint('test');
+end
+
+function stepmania()
+	--debugPrint(getPropertyFromGroup('playerStrums', 0, 'texture'));
+	--local isMiddlescroll = getPropertyFromClass('ClientPrefs', 'middleScroll');
+	--debugPrint(getProperty('SONG.arrowSkin'));
+	--debugPrint(getPropertyFromGroup('playerStrums', 0, 'texture'));
+	if getPropertyFromGroup('playerStrums', 0, 'texture') == 'noteAssetsStepmania' then
+	--if getPropertyFromGroup('unspawnNotes', 0, 'texture') == 'noteAssetsStepmania' then
+		makeLuaSprite('stepmaniaBg', 'menuDesat', 0, 0);
+		setObjectCamera('stepmaniaBg', 'hud');
+		setScrollFactor('stepmaniaBg', 0, 0);
+		doTweenColor('bgColor', 'stepmaniaBg', '222222', 0.01, 'linear');
+		addLuaSprite('stepmaniaBg', true);
+		setObjectOrder('stepmaniaBg', 0);
+		--setProperty('defaultCamZoom', 1);
+
+		--setPropertyFromClass('ClientPrefs', 'middleScroll', true);
+		--setProperty('strumLine.x', getProperty('STRUM_X_MIDDLESCROLL'));
+		setProperty('strumLine.x', -278);
+		noteTweenX('note0Offscreen', 0, -1000, 0.01, 'linear');
+		noteTweenX('note1Offscreen', 1, -1000, 0.01, 'linear');
+		noteTweenX('note2Offscreen', 2, screenWidth + 1000, 0.01, 'linear');
+		noteTweenX('note3Offscreen', 3, screenWidth + 1000, 0.01, 'linear');
+
+		--local arrowDist = 200;
+		--[[debugPrint(getPropertyFromGroup('playerStrums', 0, 'x'));
+		debugPrint(getPropertyFromGroup('playerStrums', 1, 'x'));
+		debugPrint(getPropertyFromGroup('playerStrums', 2, 'x'));
+		debugPrint(getPropertyFromGroup('playerStrums', 3, 'x'));]]--
+		setPropertyFromGroup('playerStrums', 0, 'x', 412);
+		setPropertyFromGroup('playerStrums', 1, 'x', 524);
+		setPropertyFromGroup('playerStrums', 2, 'x', 636);
+		setPropertyFromGroup('playerStrums', 3, 'x', 748);
+
+		--[[setStrumX(4);
+		setStrumX(5);
+		setStrumX(6);
+		setStrumX(7);]]--
+		--noteTweenX('note4Move', 4, screenWidth / 2 - (arrowDist * 2), 0.01, 'linear');
+		--noteTweenX('note5Move', 5, screenWidth / 2 - (arrowDist * 2), 0.01, 'linear');
+		--noteTweenX('note6Move', 6, screenWidth / 2 + (arrowDist * 2), 0.01, 'linear');
+		--noteTweenX('note7Move', 7, screenWidth / 2 + (arrowDist * 2), 'linear');
+
+
+		--setPropertyFromGroup('dad.healthColorArray', 0, 0, 255);
+	end
+
+	--debugPrint(getProperty('dad.curCharacter'));
+	if getProperty('dad.curCharacter') == 'stepmaniaEnemy' then
+		--runTimer('dadIconInvisible', 0.01, 1);
+        setProperty('iconP2.alpha', 0);
+	end
+	if getProperty('boyfriend.curCharacter') == 'stepmaniaPlayer' then
+		--runTimer('bfIconInvisible', 0.01, 1);
+        setProperty('iconP1.alpha', 0);
+	end
+end
+
+-------------------------------------------------------------------
+-- █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█   █▀▀ █░█ █▄░█ █▀▀ ▀█▀ █ █▀█ █▄░█ █▀ --
+-- █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█   █▀░ █▄█ █░▀█ █▄▄ ░█░ █ █▄█ █░▀█ ▄█ --
+-------------------------------------------------------------------
+
+function checkStyle() -- To be run only after unspawnNotes has been filled (onCreatePost and onwards)
+	isNutshell = false;
+	isFlipnote = false;
+	isCustomStyle = false;
+	for i = 0, getProperty('unspawnNotes.length') - 1 do
+		if getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'hurtNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'crucialNoteSplashesNutshell' then
+			isNutshell = true;
+			isCustomStyle = true;
+			--debugPrint('nutshell');
+			break;
+		end
+	end
+	for i = 0, getProperty('unspawnNotes.length') - 1 do
+		--if getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'hurtNoteSplashesNutshell' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'crucialNoteSplashesNutshell' then
+		if getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteRed' or getPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture') == 'noteSplashesFlipnoteBlue' then
+			isFlipnote = true;
+			isCustomStyle = true;
+			--debugPrint('flipnote');
+			break;
+		end
+	end
+end
+
+function resizeText()
+    --setTextSize('songTitle', 75);
+    local textSize = 75;
+    if getProperty('songTitle.fieldWidth') > 1000 then
+        textSize = 75 / (getProperty('songTitle.fieldWidth') / 1000);
+    end
+    --local textSize = math.min(75, 10 / getProperty('songTitle.fieldWidth'));
+    --debugPrint(textSize);
+    --debugPrint(textSize, ', ', 10 / getProperty('songTitle.fieldWidth'));
+    setTextSize('songTitle', textSize);
+    --setProperty('songTitle.fieldWidth', 100);
+    --debugPrint(getProperty('songTitle.width'));
+end
+
+function makeCredits()
+    local credits = '[CREDITS MISSING]';
+    if ((songName == 'Best Friend' or songName == 'Blitz' or songName == 'Polar Opposite') or (songName == 'Rematch' or songName == 'Get Back Here!' or songName == 'Free Time') or (songName == 'Unfamiliar' or songName == 'Raveyard') or (songName == 'Dude' or songName == 'Toasty') or (songName == 'Cafe Mocha' or songName == 'Extra Whip' or songName == '$5.87' or songName == 'Infected' or songName == 'Eye Spy' or songName == 'Cinnamon Roll')) or (songName == 'Best Friend Unfair' or songName == 'Blitz Unfair' or songName == 'Polar Opposite Unfair') or (songName == 'Rematch Unfair' or songName == 'Get Back Here! Unfair' or songName == 'Free Time Unfair') or (songName == 'Haybot' or songName == 'Haybot Unfair' or songName == 'Giraffe') then
+        credits = 'By dombomb64';
+    elseif songName == 'Defeat' or songName == 'Defeat Unfair' then
+        credits = 'Original by Rareblin\nCover and chart by dombomb64';
+    elseif songName == 'Game Over' then
+        credits = 'Original by Saster and kiwiquest\nCover and chart by dombomb64';
+    elseif songName == 'Zanta' or songName == 'Toyboy' then
+        credits = 'Original by bb-panzu\nCover and chart by dombomb64';
+    elseif songName == 'Monochrome' then
+        credits = 'Original by Adam McHummus\nCover and chart by dombomb64';
+    elseif songName == 'Wahaha!' then
+        credits = 'Original (Nyeh Heh Heh!) by Toby Fox\nAdaptation and chart by dombomb64';
+    elseif songName == 'Cross-Comic Clash' then
+        credits = 'Original (Cross-Console Clash) by B.O. Eszett\nCover and chart by dombomb64';
+    elseif songName == 'Challeng-Edd' or songName == 'Challeng-Edd Unfair' then
+        credits = 'Original by philiplol\nCover and chart by dombomb64';
+    elseif songName == 'Stuck?' then
+        credits = 'By dombomb64\nWith Leitmotifs from Plants vs Zombies and Super Stickman Golf 2';
+    elseif songName == 'Final Round' then
+        credits = 'Original by Punkett\nCover by dombomb64';
+    elseif songName == 'Abuse' then
+        credits = 'Original by car\nCover and chart by dombomb64';
+    elseif songName == 'Fatality' then
+        credits = 'Original by Saster\nCover and chart by dombomb64';
+    elseif songName == '~' then
+        credits = '';
+    elseif songName == 'Drippy' then
+        credits = 'Original (Defeat) by Rareblin\nAdaptation and chart by dombomb64';
+    elseif songName == 'Similarities' then
+        credits = 'Original (Defeat) by Rareblin\nAdaptation 1 (Defeat, But I Remade It... sorta.) by JomJom412\nAdaptation 2 (Defeat but it\'s the Angry Birds Theme), mashup, and chart by dombomb64';
+    elseif songName == 'Alacrity' then
+        credits = 'Composed by dombomb64\nCharted by deltuh\nChart modified by dombomb64';
+    end
+    return credits;
+end
+
+function makeBotplayText()
+    local botplayText = 'BOTPLAY';
+	if songName == 'Polar Opposite' or songName == 'Polar Opposite Unfair' then
+		botplayText = 'Stop cheating or Chase will cook for you';
+    elseif songName == 'Defeat' then
+        botplayText = 'You realize this difficulty doesn\'t have the mechanic right';
+    elseif songName == 'Defeat Unfair' then
+        botplayText = 'Baby.';
+    elseif songName == 'Get Back Here!' or songName == 'Get Back Here! Unfair' then
+        botplayText = 'Y\'know what I\'ll give you a pass for this one';
+    elseif songName == 'Zanta' then
+        botplayText = 'Why does Elliot want Senpai dead anyway';
+    elseif songName == 'Unfamiliar' then
+        botplayText = 'You\'re using botplay. There aren\'t any mechanics. Why are you listening to this??';
+    elseif songName == 'Raveyard' then
+        botplayText = 'When the G falls off the graveyard sign';
+    elseif songName == 'Monochrome' then
+        botplayText = 'Dead song\n\n\n\nTake a bath in the lava';
+    elseif songName == 'Wahaha!' then
+        botplayText = 'Atistale is long dead';
+    elseif songName == 'Toyboy' then
+        botplayText = 'Toby';
+    elseif songName == 'Dude' then
+        botplayText = 'eheheh eheheheheh\nI just said Sans in Dialogueboxese';
+    elseif songName == 'Toasty' then
+        botplayText = 'your balls are toasty hot :flushed:';
+    elseif songName == 'Cross-Comic Clash' then
+        botplayText = 'Aight be right back ima play Clash of Clans\n*silence*\n*Supercell jingle*';
+    elseif songName == 'Challeng-Edd' or songName == 'Challeng-Edd Unfair' then
+        botplayText = 'Hello fellow mentally Challeng-Edd individual';
+    elseif songName == 'Stuck?' then
+        --botplayText = 'Fun Fact: This song was meant for v3.0 but i forgor :skull:';
+        --botplayText = 'He\'s sleeping you hellgraue buntglasscheibe';
+        botplayText = 'Let me help you\nYEET';
+    elseif songName == 'Final Round' then
+        --botplayText = 'You vs. the guy he tells you not to worry about:\n\n\n\nHeh. Finally putting his name to use.';
+        botplayText = 'You vs. the guy he tells you not to worry about:';
+    elseif songName == 'Cafe Mocha' then
+        botplayText = 'Um, excuse me, what the actual funk do you think you\'re doing using botplay on this song? This is easier than Dad Battle.';
+    elseif songName == 'Abuse' then
+        botplayText = 'I will abuse you';
+    elseif songName == 'Fatality' then
+        botplayText = 'Kid macht sich über Dhar Mann lustig, wird in die Hölle geschleppt';
+    elseif songName == 'Infected' then
+        botplayText = 'among us!!';
+    elseif songName == 'Eye Spy' then
+        botplayText = 'I spy with my little eye something that\'s gonna be red all over';
+    elseif songName == 'Cinnamon Roll' then
+        botplayText = 'Do you ship Chadam';
+    elseif songName == '~' then
+        --botplayText = 'I- I- You- ??????';
+        botplayText = 'I... Wh... I just..\nWhaat.';
+    elseif songName == 'Drippy' then
+        botplayText = 'Your blood be really drippy rn :face_with_sunglasses:';
+    elseif songName == 'Haybot' then
+        botplayText = 'Worst chromatic scale ever';
+    elseif songName == 'Haybot Unfair' then
+        botplayText = 'Did you notice the icons';
+    elseif songName == 'Giraffe' then
+        botplayText = 'oh my god i am going to fc a giraffe';
+    elseif songName == 'Similarities' then
+        botplayText = 'Rosen sind rot,\nVeilchen sind blau,\nManche Gedichte reimen sich,\nAber dieser tut es nicht.';
+    elseif songName == 'Alacrity' then
+        botplayText = 'Did you get here from Get Back Here or freeplay';
+    end
+    return botplayText;
+end

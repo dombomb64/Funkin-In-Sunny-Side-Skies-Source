@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jimDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jim Annoyed Idle0000" x="16" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0000" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0001" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0002" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0003" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0004" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0005" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0006" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Annoyed Talk0007" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Happy Idle0000" x="1414" y="16" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0000" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0001" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0002" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0003" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0004" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0005" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0006" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Happy Talk0007" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Idle0000" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0000" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0001" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0002" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0003" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0004" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0005" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0006" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Neutral Talk0007" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Idle0000" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0000" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0001" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0002" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0003" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0004" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0005" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0006" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Prepared Talk0007" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Jim Smug Idle0000" x="16" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0000" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0001" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0002" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0003" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0004" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0005" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0006" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Jim Smug Talk0007" x="948" y="1414" width="450" height="450"/>
+</TextureAtlas>

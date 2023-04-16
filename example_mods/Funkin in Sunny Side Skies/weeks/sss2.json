@@ -1,0 +1,49 @@
+{
+	"storyName": "\"I want a rematch!\"",
+	"difficulties": "Easy, Normal, Hard, Unfair",
+	"hideFreeplay": false,
+	"weekBackground": "sss2",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Rematch",
+			"kristenAngry",
+			[
+				90,
+				161,
+				73
+			]
+		],
+		[
+			"Get Back Here!",
+			"kristenFuriousSupportive",
+			[
+				90,
+				161,
+				73
+			]
+		],
+		[
+			"Free Time",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "\"I want a rematch!\""
+}

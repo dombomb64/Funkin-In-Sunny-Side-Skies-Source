@@ -1,0 +1,116 @@
+{
+	"position": [
+		170,
+		0
+	],
+	"dialogue_pos": "right",
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"image": "chaseDialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Chase Happy Talk",
+			"idle_name": "Chase Happy Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Chase Neutral Talk",
+			"idle_name": "Chase Neutral Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "crying",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Chase Crying Talk",
+			"idle_name": "Chase Crying Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Chase Sad Talk",
+			"idle_name": "Chase Sad Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "excited",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Chase Excited Talk",
+			"idle_name": "Chase Excited Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Chase Smug Talk",
+			"idle_name": "Chase Smug Idle"
+		},
+		{
+			"loop_offsets": [
+				80,
+				0
+			],
+			"anim": "snowballHit",
+			"idle_offsets": [
+				80,
+				0
+			],
+			"loop_name": "Chase Snowball Hit",
+			"idle_name": "Chase Snowball Hit"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "shocked",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Chase Shocked Talk",
+			"idle_name": "Chase Shocked Idle"
+		}
+	]
+}

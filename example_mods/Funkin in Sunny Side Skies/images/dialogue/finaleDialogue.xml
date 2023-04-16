@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="finaleDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="1-0000" x="16" y="16" width="426" height="240"/>
+	<SubTexture name="10-0000" x="458" y="16" width="426" height="240"/>
+	<SubTexture name="11-0000" x="900" y="16" width="426" height="240"/>
+	<SubTexture name="12-0000" x="1342" y="16" width="426" height="240"/>
+	<SubTexture name="13-0000" x="16" y="272" width="426" height="240"/>
+	<SubTexture name="14-0000" x="458" y="272" width="426" height="240"/>
+	<SubTexture name="15-0000" x="900" y="272" width="426" height="240"/>
+	<SubTexture name="2-0000" x="1342" y="272" width="426" height="240"/>
+	<SubTexture name="3-0000" x="16" y="528" width="426" height="240"/>
+	<SubTexture name="4-0000" x="458" y="528" width="426" height="240"/>
+	<SubTexture name="5-0000" x="900" y="528" width="426" height="240"/>
+	<SubTexture name="6-0000" x="1342" y="528" width="426" height="240"/>
+	<SubTexture name="7-0000" x="16" y="784" width="426" height="240"/>
+	<SubTexture name="8-0000" x="458" y="784" width="426" height="240"/>
+	<SubTexture name="9-0000" x="900" y="784" width="426" height="240"/>
+</TextureAtlas>

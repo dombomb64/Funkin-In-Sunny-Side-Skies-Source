@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chaseGameOver.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mouth Closed0000" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Mouth Closed0001" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Mouth Closed0002" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Mouth Closed0003" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Mouth Closed0004" x="1072" y="544" width="512" height="512"/>
+	<SubTexture name="Mouth Closed0005" x="1072" y="544" width="512" height="512"/>
+	<SubTexture name="Mouth Open0000" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Mouth Open0001" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Mouth Open0002" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Mouth Open0003" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Mouth Open0004" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Mouth Open0005" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Mouth Open0006" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Mouth Open0007" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Mouth Open0008" x="1072" y="16" width="512" height="512"/>
+	<SubTexture name="Mouth Open0009" x="1072" y="16" width="512" height="512"/>
+	<SubTexture name="Mouth Open0010" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Mouth Open0011" x="16" y="1072" width="512" height="512"/>
+</TextureAtlas>

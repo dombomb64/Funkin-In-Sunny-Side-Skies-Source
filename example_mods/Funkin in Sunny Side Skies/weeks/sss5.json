@@ -1,0 +1,49 @@
+{
+	"storyName": "Autumn Leaf Cafe",
+	"hideFreeplay": false,
+	"weekBackground": "sss5",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Cafe Mocha",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		],
+		[
+			"Extra Whip",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		],
+		[
+			"$5.87",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Autumn Leaf Cafe",
+	"hiddenUntilUnlocked": false
+}

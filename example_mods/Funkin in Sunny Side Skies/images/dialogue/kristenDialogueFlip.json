@@ -1,0 +1,90 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		60,
+		0
+	],
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Kristen Happy Idle",
+			"loop_name": "Kristen Happy Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "confident",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Kristen Confident Idle",
+			"loop_name": "Kristen Confident Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Kristen Angry Idle",
+			"loop_name": "Kristen Angry Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "yelling",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Kristen Yelling Idle",
+			"loop_name": "Kristen Yelling Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Kristen Neutral Idle",
+			"loop_name": "Kristen Neutral Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Kristen Smug Idle",
+			"loop_name": "Kristen Smug Talk"
+		}
+	],
+	"image": "kristenDialogueFlip"
+}

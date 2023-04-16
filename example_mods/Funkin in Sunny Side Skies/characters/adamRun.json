@@ -1,0 +1,118 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sing Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sing Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sing Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sing Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "Dance Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "Dance Left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/adamRun",
+	"position": [
+		0,
+		50
+	],
+	"healthicon": "adamNutshell",
+	"flip_x": false,
+	"healthbar_colors": [
+		148,
+		50,
+		50
+	],
+	"camera_position": [
+		390,
+		-710
+	],
+	"sing_duration": 4,
+	"scale": 3,
+	"legs_image": "characters/adamLegs",
+	"legs_x": -201,
+	"legs_y": -372,
+	"legs_flipped_x": -30,
+	"legs_flip_x": false,
+	"legs_flip_y": false,
+	"legs_left": {
+		"loop": false,
+		"offsets": [
+			0,
+			0
+		],
+		"anim": "danceLeft",
+		"fps": 24,
+		"name": "Dance Right",
+		"indices": []
+	},
+	"legs_right": {
+		"loop": false,
+		"offsets": [
+			0,
+			0
+		],
+		"anim": "danceRight",
+		"fps": 24,
+		"name": "Dance Left",
+		"indices": []
+	},
+	"legs_type": "human"
+}

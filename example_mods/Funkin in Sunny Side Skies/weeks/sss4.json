@@ -1,0 +1,40 @@
+{
+	"storyName": "Toaster Dude",
+	"hideFreeplay": false,
+	"weekBackground": "sss4",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Dude",
+			"dudeNutshell",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Toasty",
+			"dudeNutshell",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Toaster Dude"
+}

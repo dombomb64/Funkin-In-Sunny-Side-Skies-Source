@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wahoo.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hoo0000" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0001" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0002" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0003" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0004" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0005" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0006" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0007" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0008" x="1072" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0009" x="1072" y="16" width="512" height="512"/>
+	<SubTexture name="Hoo0010" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Hoo0011" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Wa0000" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Wa0001" x="1072" y="544" width="512" height="512"/>
+	<SubTexture name="Wa0002" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Wa0003" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Wa0004" x="1072" y="1072" width="512" height="512"/>
+	<SubTexture name="Wa0005" x="544" y="16" width="512" height="512"/>
+</TextureAtlas>

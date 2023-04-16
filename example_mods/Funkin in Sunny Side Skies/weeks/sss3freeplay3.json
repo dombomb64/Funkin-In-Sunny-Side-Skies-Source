@@ -1,0 +1,32 @@
+{
+	"storyName": "Me watching my hamster detonate in the microwave after I was told I would get free robux if I put him in there",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "amongUsFartGif",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss3",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"freddyEyes",
+		"",
+		"billCipher"
+	],
+	"songs": [
+		[
+			"Toyboy",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Toyboy",
+	"hiddenUntilUnlocked": false
+}

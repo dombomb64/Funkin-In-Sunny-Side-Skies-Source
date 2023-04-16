@@ -1,0 +1,6 @@
+Tween the zoom of the camera.
+NOTE: This position will reset to its 
+default after the tween is complete!
+
+Value 1: Camera zoom value
+Value 2: Time in beats

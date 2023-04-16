@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chaseBoombox.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cheer0000" x="16" y="2656" width="512" height="512"/>
+	<SubTexture name="Cheer0001" x="16" y="2656" width="512" height="512"/>
+	<SubTexture name="Cheer0002" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Cheer0003" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Cheer0004" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Cheer0005" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Cheer0006" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Cheer0007" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Cheer0008" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Cheer0009" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Cry0000" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Cry0001" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Cry0002" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Cry0003" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Cry0004" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Cry0005" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Cry0006" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Cry0007" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Cry0008" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Cry0009" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Dance Left0000" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Dance Left0001" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Dance Left0002" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Dance Left0003" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Dance Left0004" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Left0005" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Left0006" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Left0007" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Left0008" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Left0009" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Right0000" x="16" y="1600" width="512" height="512"/>
+	<SubTexture name="Dance Right0001" x="16" y="1600" width="512" height="512"/>
+	<SubTexture name="Dance Right0002" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Dance Right0003" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Dance Right0004" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Right0005" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Right0006" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Right0007" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Right0008" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Dance Right0009" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Scared0000" x="544" y="2128" width="512" height="512"/>
+	<SubTexture name="Scared0001" x="544" y="2128" width="512" height="512"/>
+	<SubTexture name="Scared0002" x="544" y="2656" width="512" height="512"/>
+	<SubTexture name="Scared0003" x="544" y="2656" width="512" height="512"/>
+	<SubTexture name="Scared0004" x="544" y="3184" width="512" height="512"/>
+	<SubTexture name="Scared0005" x="544" y="3184" width="512" height="512"/>
+	<SubTexture name="Scared Loop0000" x="1072" y="16" width="512" height="512"/>
+	<SubTexture name="Scared Loop0001" x="1072" y="16" width="512" height="512"/>
+	<SubTexture name="Scared Loop0002" x="1072" y="544" width="512" height="512"/>
+	<SubTexture name="Scared Loop0003" x="1072" y="544" width="512" height="512"/>
+	<SubTexture name="Scared Loop0004" x="544" y="3184" width="512" height="512"/>
+	<SubTexture name="Scared Loop0005" x="544" y="3184" width="512" height="512"/>
+</TextureAtlas>

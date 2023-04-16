@@ -1,0 +1,59 @@
+{
+	"songs": [
+		[
+			"~",
+			"blank",
+			[
+				253,
+				232,
+				113
+			]
+		],
+		[
+			"~",
+			"blank",
+			[
+				253,
+				232,
+				113
+			]
+		],
+		[
+			"~",
+			"blank",
+			[
+				253,
+				232,
+				113
+			]
+		],
+		[
+			"~",
+			"blank",
+			[
+				253,
+				232,
+				113
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "pananananananana",
+	"difficulties": "adamKnockPlease, didYouJustInstalledFnaf, findChase, grassAtACheapPrice, martApproval, megaHot, pee, profanityFilter, theTimeStartsNow, whyDoCatsPurr, yameteKudasai",
+	"weekCharacters": [
+		"bfRightBruh",
+		"bfRightBruh",
+		"hornieBf"
+	],
+	"storyName": "Joke Songs",
+	"weekName": "Joke Songs",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

@@ -1,0 +1,32 @@
+{
+	"storyName": "guys... please stop fighting... guys omg stop",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "chocoMountainShortcut",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss3",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"dad",
+		"hotAmongUs",
+		"gf"
+	],
+	"songs": [
+		[
+			"Monochrome",
+			"chaseSad",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Monochrome",
+	"hiddenUntilUnlocked": false
+}

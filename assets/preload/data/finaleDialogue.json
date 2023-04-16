@@ -1,0 +1,124 @@
+{
+	"dialogue": [
+		{
+			"sound": "elliot",
+			"speed": 0.25,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "1",
+			"text": "..."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.05,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "2",
+			"text": "Hello there, dear player."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.1,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "3",
+			"text": "You must be... Ah~"
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.05,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "4",
+			"text": "%username%."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.05,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "5",
+			"text": "I've heard a lot about you."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.05,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "6",
+			"text": "I'm Elliot, Chase's roommate. Nice to finally put a face to the name."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.2,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "7",
+			"text": "So..."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.05,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "8",
+			"text": "It seems like you're stuck on what to do next, no?"
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.05,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "9",
+			"text": "Eh. Don't bother answering that."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.1,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "10",
+			"text": "I know exactly what you need..."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.15,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "11",
+			"text": "Something of substance..."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.2,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "12",
+			"text": "A nice, rewarding... finale."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.05,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "13",
+			"text": "Don't worry. I can help with that."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.15,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "14",
+			"text": "I'll give you an..."
+		},
+		{
+			"sound": "elliot",
+			"speed": 0.15,
+			"portrait": "finaleDialogue",
+			"boxState": "normal",
+			"expression": "15",
+			"text": "OVERCAST OVERVIEW."
+		}
+	]
+}

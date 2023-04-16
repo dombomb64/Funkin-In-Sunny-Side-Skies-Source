@@ -1,0 +1,32 @@
+{
+	"storyName": "You know what's satisfying every now and then? Giving your buddies a good thumbs-up! Right, Goomba?",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "babiWhenPoon",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss2",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"gf",
+		"pico",
+		"gf"
+	],
+	"songs": [
+		[
+			"Zanta",
+			"senpaiNutshell",
+			[
+				245,
+				191,
+				137
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Zanta"
+}

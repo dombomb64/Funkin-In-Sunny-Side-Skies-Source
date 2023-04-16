@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dudeDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dude Annoyed Idle0000" x="16" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0000" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0001" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0002" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0003" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0004" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0005" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0006" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Annoyed Talk0007" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Confused Idle0000" x="1414" y="16" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0000" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0001" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0002" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0003" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0004" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0005" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0006" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Confused Talk0007" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Idle0000" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0000" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0001" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0002" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0003" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0004" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0005" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0006" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Dude Neutral Talk0007" x="16" y="948" width="450" height="450"/>
+</TextureAtlas>

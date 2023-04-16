@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crucialNoteAssetsNutshell.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="16" y="16" width="279" height="279" frameX="60" frameY="60" frameWidth="279" frameHeight="279"/>
+	<SubTexture name="blue hold end0000" x="311" y="311" width="51" height="66" frameX="60" frameY="60" frameWidth="51" frameHeight="66"/>
+	<SubTexture name="blue hold piece0000" x="311" y="393" width="51" height="45" frameX="60" frameY="60" frameWidth="51" frameHeight="45"/>
+	<SubTexture name="green0000" x="311" y="16" width="279" height="279" frameX="60" frameY="60" frameWidth="279" frameHeight="279"/>
+	<SubTexture name="green hold end0000" x="311" y="311" width="51" height="66" frameX="60" frameY="60" frameWidth="51" frameHeight="66"/>
+	<SubTexture name="green hold piece0000" x="311" y="393" width="51" height="45" frameX="60" frameY="60" frameWidth="51" frameHeight="45"/>
+	<SubTexture name="pruple end hold0000" x="311" y="311" width="51" height="66" frameX="60" frameY="60" frameWidth="51" frameHeight="66"/>
+	<SubTexture name="purple0000" x="16" y="311" width="279" height="279" frameX="60" frameY="60" frameWidth="279" frameHeight="279"/>
+	<SubTexture name="purple hold piece0000" x="311" y="393" width="51" height="45" frameX="60" frameY="60" frameWidth="51" frameHeight="45"/>
+	<SubTexture name="red0000" x="16" y="606" width="279" height="279" frameX="60" frameY="60" frameWidth="279" frameHeight="279"/>
+	<SubTexture name="red hold end0000" x="311" y="311" width="51" height="66" frameX="60" frameY="60" frameWidth="51" frameHeight="66"/>
+	<SubTexture name="red hold piece0000" x="311" y="393" width="51" height="45" frameX="60" frameY="60" frameWidth="51" frameHeight="45"/>
+</TextureAtlas>

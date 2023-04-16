@@ -1,0 +1,90 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		120,
+		0
+	],
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Adam Neutral Idle",
+			"loop_name": "Adam Neutral Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "annoyed",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Adam Annoyed Idle",
+			"loop_name": "Adam Annoyed Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Adam Smug Idle",
+			"loop_name": "Adam Smug Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Adam Happy Idle",
+			"loop_name": "Adam Happy Talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "stare",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Adam Stare Idle",
+			"loop_name": "Adam Stare Talk"
+		},
+		{
+			"idle_offsets": [
+				-60,
+				0
+			],
+			"anim": "snowballHit",
+			"loop_offsets": [
+				-60,
+				0
+			],
+			"idle_name": "Adam Snowball Hit",
+			"loop_name": "Adam Snowball Hit"
+		}
+	],
+	"image": "adamDialogueFlip"
+}

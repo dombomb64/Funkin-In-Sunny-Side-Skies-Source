@@ -1,0 +1,4 @@
+Makes the opponent throw a snowball.
+
+Value 1: None
+Value 2: None

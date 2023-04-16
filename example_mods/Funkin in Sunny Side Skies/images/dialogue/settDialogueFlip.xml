@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="settDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sett Happy Idle0000" x="16" y="1414" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0000" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0001" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0002" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0003" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0004" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0005" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0006" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Happy Talk0007" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Idle0000" x="16" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0000" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0001" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0002" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0003" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0004" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0005" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0006" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Sett Neutral Talk0007" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Idle0000" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0000" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0001" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0002" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0003" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0004" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0005" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0006" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Sett Stressed Talk0007" x="948" y="16" width="450" height="450"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="emergencyMeeting2.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="16" y="16" width="1280" height="720"/>
+	<SubTexture name="Idle0001" x="1312" y="16" width="1280" height="720"/>
+	<SubTexture name="Idle0002" x="2608" y="16" width="1280" height="720"/>
+</TextureAtlas>

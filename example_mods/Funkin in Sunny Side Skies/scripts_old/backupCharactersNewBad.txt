@@ -1,0 +1,303 @@
+-- NOTE:
+-- Feel free to use this script in your mods, however, this script does not support character offsets.
+-- If you do use it, though, just make sure to give credit to me, dombomb64.
+-- (You can delete all the commented-out code, most of it is remnants from past attempts.)
+-- Another thing to keep in mind is that if you do use this, this is not a 1:1 replica of Character.hx, so you will need to do some things.
+-- This includes using a character XML that doesn't need offsets from a character JSON and manually focusing the camera on the backup characters.
+-- There may be some other things that I forgot, though.
+
+boyfriendDanceIdle = false; -- If true, do danceLeft and danceRight instead of idle
+dadDanceIdle = false;
+boyfriendDanced = false; -- If true, dance right, if false, dance left
+dadDanced = false;
+boyfriendHoldTimer = 0; -- Has something to do with holding sing poses, I think (I found it in Character.hx and Boyfriend.hx)
+dadHoldTimer = 0;
+boyfriendSpecialAnim = false; -- If true, don't dance yet
+dadSpecialAnim = false;
+boyfriendDanceRate = 2; -- The amount of beats to go by for the character to dance
+dadDanceRate = 2;
+boyfriendAnimation = 'idle'; -- boyfriend.animation.curAnim.name doesn't wanna work for some reason
+dadAnimation = 'idle';
+
+local frameTime = 0; -- It's elapsed, but accessible everywhere
+
+function onCreatePost()
+	if songName == 'Cross-Comic Clash' then
+		createCharacters('characters/chaseNutshell', 'characters/jimNutshell', false, true, false, true, false, false);
+		setProperty('boyfriend2.alpha', 0);
+		setProperty('dad2.alpha', 0);
+	elseif songName == 'Challeng-Edd' then
+		--createCharacters('characters/' .. getProperty('dad.curCharacter'), '', true, true, false, true, false, false);
+		createCharacters('characters/dudeAnnoyed', '', true, true, false, true, true, false);
+		setProperty('boyfriend2.x', getProperty('dad.x'));
+		setProperty('boyfriend2.y', getProperty('dad.y'));
+		setProperty('boyfriend2.alpha', 0);
+	elseif songName == 'Challeng-Edd Unfair' then
+		--createCharacters('characters/' .. getProperty('dad.curCharacter'), '', true, true, false, true, false, false);
+		createCharacters('characters/dudeTopDown', '', true, true, false, true, false, false);
+		setProperty('boyfriend2.x', getProperty('dad.x') - 210);
+		setProperty('boyfriend2.y', getProperty('dad.y'));
+		setProperty('boyfriend2.alpha', 0);
+	end
+
+	runTimer('backupDance', crochet / 1000, 5);
+
+	--runHaxeCode([[game.boyfriend.fakeVariableHhgregg = 10;]]);
+	--setProperty('boyfriend.fakeVariableHhgregg', 10);
+	--debugPrint(getProperty('boyfriend.fakeVariableHhgregg'));
+end
+
+--[[function onCountdownTick(counter)
+	if counter % 2 == 0 then
+		objectPlayAnimation('boyfriend2', 'idle', true);
+		objectPlayAnimation('dad2', 'idle', true);
+	end
+end]]--
+
+function onTimerCompleted(tag, loops, loopsLeft)
+	if tag == 'backupDance' then
+		backupDance(loopsLeft);
+		--debugPrint('test');
+	end
+end
+
+function onBeatHit()
+	backupDance(curBeat);
+	if songName == 'Cross-Comic Clash' then
+		if curBeat == 160 then
+			setProperty('dad2.alpha', 1);
+		elseif curBeat == 164 then
+			setProperty('boyfriend2.alpha', 1);
+		end
+	end
+	--debugPrint(getProperty('boyfriend2.alpha'));
+end
+
+function onUpdate(elapsed)
+	frameTime = elapsed;
+	holdPose();
+end
+
+function backupDance(beat)
+	--if beat % boyfriendDanceRate == 0 and getProperty('boyfriend2.animation.curAnim') ~= nil and not startsWith(getProperty('boyfriend2.animation.curAnim.name'), 'sing') and not getProperty('boyfriend.stunned') then
+	if beat % boyfriendDanceRate == 0 and getProperty('boyfriend2.animation.curAnim') ~= nil and not startsWith(boyfriendAnimation, 'sing') and not getProperty('boyfriend.stunned') then
+		backupBoyfriendDance();
+	end
+	--if beat % dadDanceRate == 0 and getProperty('dad2.animation.curAnim') ~= nil and not startsWith(getProperty('dad2.animation.curAnim.name'), 'sing') and not getProperty('dad.stunned') then
+	if beat % dadDanceRate == 0 and getProperty('dad2.animation.curAnim') ~= nil and not startsWith(dadAnimation, 'sing') and not getProperty('dad.stunned') then
+		backupDadDance();
+	end
+	--debugPrint(dadAnimation);
+end
+
+function backupBoyfriendDance() -- There used to be an argument called beat, but it's not needed anymore
+	-- Old code lol
+	--[[if beat % 2 == 0 and not boyfriendDanceIdle then
+		objectPlayAnimation('boyfriend2', 'idle', true);
+	elseif beat % 2 == 0 and boyfriendDanceIdle then
+		objectPlayAnimation('boyfriend2', 'danceLeft', true);
+	elseif (beat - 1) % 2 == 0 and boyfriendDanceIdle then
+		objectPlayAnimation('boyfriend2', 'danceRight', true);
+	end]]--
+
+	if not boyfriendSpecialAnim then
+		if boyfriendDanceIdle then
+			boyfriendDanced = not boyfriendDanced;
+			--debugPrint('test');
+			if boyfriendDanced then
+				playAnim('boyfriend2', 'danceRight', true);
+				boyfriendAnimation = 'danceRight';
+			else
+				playAnim('boyfriend2', 'danceLeft', true);
+				boyfriendAnimation = 'danceLeft';
+			end
+		else -- I'd add a check for if the idle animation exists, but it's always added in createCharacters() and alt animations don't work sooo
+			playAnim('boyfriend2', 'idle', true);
+			boyfriendAnimation = 'idle';
+		end
+	end
+end
+
+function backupDadDance()
+	-- Old code lol
+	--[[if beat % 2 == 0 and not dadDanceIdle then
+		objectPlayAnimation('dad2', 'idle', true);
+	elseif beat % 2 == 0 and dadDanceIdle then
+		objectPlayAnimation('dad2', 'danceLeft', true);
+	elseif (beat - 1) % 2 == 0 and dadDanceIdle then
+		objectPlayAnimation('dad2', 'danceRight', true);
+	end]]--
+
+	if not dadSpecialAnim then
+		if dadDanceIdle then
+			dadDanced = not dadDanced;
+			if dadDanced then
+				playAnim('dad2', 'danceRight', true);
+				dadAnimation = 'danceRight';
+			else
+				playAnim('dad2', 'danceLeft', true);
+				dadAnimation = 'danceLeft';
+			end
+		else -- I'd add a check for if the idle animation exists, but it's always added in createCharacters() and alt animations don't work sooo
+			playAnim('dad2', 'idle', true);
+			dadAnimation = 'idle';
+		end
+	end
+end
+
+function holdPose()
+	--[[runHaxeCode(
+		if (!game.boyfriend.debugMode && game.boyfriend.animation.curAnim != null)
+		{
+			if (game.boyfriend.animation.curAnim.name.startsWith('sing'))
+			{
+				game.boyfriend.holdTimer += elapsed;
+			}
+			else
+				game.boyfriend.holdTimer = 0;
+
+			if (game.boyfriend.animation.curAnim.name.endsWith('miss') && game.boyfriend.animation.curAnim.finished && !game.boyfriend.debugMode)
+			{
+				game.boyfriend.playAnim('idle', true, false, 10);
+			}
+
+			if (game.boyfriend.animation.curAnim.name == 'firstDeath' && game.boyfriend.animation.curAnim.finished && startedDeath)
+			{
+				game.boyfriend.playAnim('deathLoop');
+			}
+		}
+	);]]--
+
+	local musicPitch = 0;
+	if getPropertyFromClass('flixel.FlxG', 'sound.music') ~= nil then
+		musicPitch = getPropertyFromClass('flixel.FlxG', 'sound.music.pitch');
+	else
+		musicPitch = 1;
+	end
+
+	if not getProperty('boyfriend.debugMode') and getProperty('boyfriend2.animation.curAnim') ~= nil then
+		if startsWith(boyfriendAnimation, 'sing') then
+			boyfriendHoldTimer = boyfriendHoldTimer + frameTime;
+		else
+			boyfriendHoldTimer = 0;
+		end
+
+		-- In Boyfriend.hx this is where the super call starts
+		-- ...Except there isn't actually anything to put here lol
+
+		-- But there is something from PlayState.hx
+		
+		--debugPrint(boyfriendHoldTimer);
+		if boyfriendHoldTimer >= stepCrochet * (0.0011 / musicPitch) * getProperty('boyfriend.singDuration') and startsWith(boyfriendAnimation, 'sing') and not endsWith(boyfriendAnimation, 'miss') then
+			backupBoyfriendDance();
+		end
+	end
+
+	if not getProperty('dad.debugMode') and getProperty('dad2.animation.curAnim') ~= nil then
+		-- In Character.hx there is a check for (!isPlayer) here but this is not needed
+		if startsWith(dadAnimation, 'sing') then
+			dadHoldTimer = dadHoldTimer + frameTime;
+		end
+		--debugPrint(dadHoldTimer);
+
+		--debugPrint(getProperty('dad2.animation.curAnim.name'));
+		--debugPrint(dadAnimation);
+		if dadHoldTimer >= stepCrochet * (0.0011 / musicPitch) * getProperty('dad.singDuration') then
+			backupDadDance();
+			dadHoldTimer = 0;
+		end
+		--debugPrint('test');
+		
+		-- The if statement for said (!isPlayer) check ends here
+	end
+end
+
+function startsWith(str, find)
+	return string.sub(str, 1, string.len(find)) == find;
+end
+
+function endsWith(str, find)
+    return str:sub(-string.len(find)) == find;
+end
+
+function createCharacters(boyfriendImage, dadImage, boyfriendFlip, dadFlip, boyfriendFlipPoses, dadFlipPoses, boyfriendDanceType, dadDanceType)
+	if boyfriendImage ~= '' then
+		makeAnimatedLuaSprite('boyfriend2', boyfriendImage, getProperty('boyfriend.x') + 300, getProperty('boyfriend.y') - 30);
+		addLuaSprite('boyfriend2', true);
+		setObjectOrder('boyfriend2', getObjectOrder('boyfriendGroup'));
+		setProperty('boyfriend2.scale.x', 3);
+		setProperty('boyfriend2.scale.y', 3);
+		setProperty('boyfriend2.antialiasing', false);
+		setProperty('boyfriend2.flipX', boyfriendFlip);
+
+		addAnimationByPrefix('boyfriend2', 'idle', 'Idle', 24, false);
+		addAnimationByPrefix('boyfriend2', 'danceLeft', 'Dance Left', 24, false);
+		addAnimationByPrefix('boyfriend2', 'danceRight', 'Dance Right', 24, false);
+
+		addAnimationByPrefix('boyfriend2', 'singLEFT', 'Sing Left', 24, false);
+		addAnimationByPrefix('boyfriend2', 'singDOWN', 'Sing Down', 24, false);
+		addAnimationByPrefix('boyfriend2', 'singUP', 'Sing Up', 24, false);
+		addAnimationByPrefix('boyfriend2', 'singRIGHT', 'Sing Right', 24, false);
+
+		addAnimationByPrefix('boyfriend2', 'singLEFTmiss', 'Miss Left', 24, false);
+		addAnimationByPrefix('boyfriend2', 'singDOWNmiss', 'Miss Down', 24, false);
+		addAnimationByPrefix('boyfriend2', 'singUPmiss', 'Miss Up', 24, false);
+		addAnimationByPrefix('boyfriend2', 'singRIGHTmiss', 'Miss Right', 24, false);
+
+		if boyfriendFlipPoses then
+			addAnimationByPrefix('boyfriend2', 'singLEFT', 'Sing Right', 24, false);
+			addAnimationByPrefix('boyfriend2', 'singRIGHT', 'Sing Left', 24, false);
+			addAnimationByPrefix('boyfriend2', 'singLEFTmiss', 'Miss Right', 24, false);
+			addAnimationByPrefix('boyfriend2', 'singRIGHTmiss', 'Miss Left', 24, false);
+		end
+
+		boyfriendDanceIdle = false;
+		boyfriendDanceRate = 2;
+		if boyfriendDanceType then
+			boyfriendDanceIdle = true;
+			boyfriendDanceRate = 1;
+		end
+
+		backupBoyfriendDance();
+	end
+
+	if dadImage ~= '' then
+		makeAnimatedLuaSprite('dad2', dadImage, getProperty('dad.x') - 300, getProperty('dad.y') - 30);
+		addLuaSprite('dad2', true);
+		setObjectOrder('dad2', getObjectOrder('dadGroup'));
+		setProperty('dad2.scale.x', 3);
+		setProperty('dad2.scale.y', 3);
+		setProperty('dad2.antialiasing', false);
+		setProperty('dad2.flipX', dadFlip);
+
+		addAnimationByPrefix('dad2', 'idle', 'Idle', 24, false);
+		addAnimationByPrefix('dad2', 'danceLeft', 'Dance Left', 24, false);
+		addAnimationByPrefix('dad2', 'danceRight', 'Dance Right', 24, false);
+
+		addAnimationByPrefix('dad2', 'singLEFT', 'Sing Left', 24, false);
+		addAnimationByPrefix('dad2', 'singDOWN', 'Sing Down', 24, false);
+		addAnimationByPrefix('dad2', 'singUP', 'Sing Up', 24, false);
+		addAnimationByPrefix('dad2', 'singRIGHT', 'Sing Right', 24, false);
+
+		addAnimationByPrefix('dad2', 'singLEFTmiss', 'Miss Left', 24, false);
+		addAnimationByPrefix('dad2', 'singDOWNmiss', 'Miss Down', 24, false);
+		addAnimationByPrefix('dad2', 'singUPmiss', 'Miss Up', 24, false);
+		addAnimationByPrefix('dad2', 'singRIGHTmiss', 'Miss Right', 24, false);
+
+		if dadFlipPoses then
+			addAnimationByPrefix('dad2', 'singLEFT', 'Sing Right', 24, false);
+			addAnimationByPrefix('dad2', 'singRIGHT', 'Sing Left', 24, false);
+			addAnimationByPrefix('dad2', 'singLEFTmiss', 'Miss Right', 24, false);
+			addAnimationByPrefix('dad2', 'singRIGHTmiss', 'Miss Left', 24, false);
+		end
+
+		dadDanceIdle = false;
+		dadDanceRate = 2;
+		if dadDanceType then
+			dadDanceIdle = true;
+			dadDanceRate = 1;
+		end
+		
+		backupDadDance();
+	end
+end

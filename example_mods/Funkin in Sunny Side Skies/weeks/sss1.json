@@ -1,0 +1,50 @@
+{
+	"storyName": "Arcade Blitz",
+	"difficulties": "Easy, Normal, Hard, Unfair",
+	"hideFreeplay": false,
+	"weekBackground": "sss1",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Best Friend",
+			"kristenNutshell",
+			[
+				90,
+				161,
+				73
+			]
+		],
+		[
+			"Blitz",
+			"kristenNutshell",
+			[
+				90,
+				161,
+				73
+			]
+		],
+		[
+			"Polar Opposite",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"weekName": "Arcade Blitz",
+	"hiddenUntilUnlocked": false
+}

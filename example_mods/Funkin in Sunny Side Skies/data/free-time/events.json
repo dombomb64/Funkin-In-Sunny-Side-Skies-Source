@@ -1,0 +1,619 @@
+{
+	"song": {
+		"speed": 2,
+		"stage": "winterBgNutshell",
+		"player1": "adamNutshell",
+		"player2": "chaseNutshell",
+		"player3": null,
+		"events": [
+			[
+				9600,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				10000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				10400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				10800,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				19200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				19600,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				20000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				20400,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				22400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				22600,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				22800,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				23000,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				44800,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				45200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				45600,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				46000,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				46400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				46800,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				47200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				47600,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				48400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				48800,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				49200,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				49600,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				50000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				50400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				50800,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				72800,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				73000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				73200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				73400,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				75200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				75400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				75600,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				75800,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				76000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				76100,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				76200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				76400,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				83200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				83400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				83600,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				83800,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				84200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				84400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				84600,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85600,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85800,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				86000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				86200,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				88400,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				88800,
+				[
+					[
+						"Pack Snowball",
+						"",
+						""
+					]
+				]
+			],
+			[
+				89200,
+				[
+					[
+						"Throw Snowball",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashesNutshell",
+		"validScore": false,
+		"gfVersion": "noGf",
+		"bpm": 150,
+		"arrowSkin": "noteAssetsNutshell",
+		"needsVoices": true,
+		"song": "Free-Time"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"storyName": "Look he's doing the Phantasm pose",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "cloinLook",
+	"weekBefore": "sss5",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Eye Spy",
+			"chaseNutshell",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"weekCharacters": [
+		"bootyTickler",
+		"bootyTickler",
+		"bootyTickler"
+	],
+	"weekName": "Eye Spy",
+	"hiddenUntilUnlocked": false
+}

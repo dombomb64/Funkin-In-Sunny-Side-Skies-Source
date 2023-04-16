@@ -1,0 +1,32 @@
+{
+	"storyName": "This message should not appear. If it does, it's a bug.",
+	"difficulties": "Easy, Normal, Hard, Unfair",
+	"hideFreeplay": false,
+	"weekBackground": "gdIconMoaning",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss1",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"gf",
+		"gf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Defeat",
+			"chaseImpostor",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Defeat"
+}

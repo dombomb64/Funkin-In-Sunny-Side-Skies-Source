@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-maximumborkdriveanim.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Winning0000" x="0" y="0" width="150" height="150"/>
+	<SubTexture name="Winning0001" x="150" y="0" width="150" height="150"/>
+	<SubTexture name="Winning0002" x="0" y="150" width="150" height="150"/>
+	<SubTexture name="Winning0003" x="150" y="150" width="150" height="150"/>
+	<SubTexture name="Neutral0000" x="0" y="0" width="150" height="150"/>
+	<SubTexture name="Neutral0001" x="150" y="0" width="150" height="150"/>
+	<SubTexture name="Neutral0002" x="0" y="150" width="150" height="150"/>
+	<SubTexture name="Neutral0003" x="150" y="150" width="150" height="150"/>
+	<SubTexture name="Losing0000" x="0" y="0" width="150" height="150"/>
+	<SubTexture name="Losing0001" x="150" y="0" width="150" height="150"/>
+	<SubTexture name="Losing0002" x="0" y="150" width="150" height="150"/>
+	<SubTexture name="Losing0003" x="150" y="150" width="150" height="150"/>
+</TextureAtlas>

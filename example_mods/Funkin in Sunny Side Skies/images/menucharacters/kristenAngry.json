@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Dance Left",
+	"image": "kristenAngry",
+	"position": [
+		130,
+		60
+	],
+	"flipX": true,
+	"scale": 1,
+	"confirm_anim": "M Dad Idle"
+}

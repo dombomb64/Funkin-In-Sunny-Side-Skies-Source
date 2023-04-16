@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Episode: Annoying"
+		},
+		{
+			"sound": "seth",
+			"speed": 0.05,
+			"portrait": "settDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Sir Adiel, Lady Clarabelle is ill!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Come in."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "So, Lady Clarabelle is ill... I understand."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Return in a fortnight. I will have something prepared."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "But before you go, I've been meaning to test something out for a while."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "...Care to join me, um... What's your name?"
+		},
+		{
+			"sound": "seth",
+			"speed": 0.05,
+			"portrait": "settDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Sett, sir. And it would be a pleasure."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "So, Sett, I've created a device that can make any sound imaginable. I call it... a boombox."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "I've also created the microphone, a tool that lets you record sounds to play back later..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "...But it can also be used in conjunction with a boombox to amplify sounds on the fly."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "Would you like to, perhaps, sing to a piece I've composed to test these devices?"
+		},
+		{
+			"sound": "seth",
+			"speed": 0.05,
+			"portrait": "settDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Yes, sir!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adielDialogueFlip",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "Alright, then."
+		}
+	]
+}

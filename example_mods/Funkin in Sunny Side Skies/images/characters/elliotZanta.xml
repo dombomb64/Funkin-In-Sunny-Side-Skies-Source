@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="elliotZanta.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Completely missed0000" x="1350" y="450" width="450" height="450"/>
+	<SubTexture name="Completely missed0001" x="1350" y="450" width="450" height="450"/>
+	<SubTexture name="Completely missed0002" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0003" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0004" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0005" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0006" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0007" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0008" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0009" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0010" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0011" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0012" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0013" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0014" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0015" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0016" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0017" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0018" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0019" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0020" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0021" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0022" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0023" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0024" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0025" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0026" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0027" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0028" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0029" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0030" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0031" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0032" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0033" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0034" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0035" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0036" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0037" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0038" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0039" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0040" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0041" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0042" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0043" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0044" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0045" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0046" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0047" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0048" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Completely missed0049" x="900" y="900" width="450" height="450"/>
+	<SubTexture name="Idle0000" x="0" y="0" width="450" height="450"/>
+	<SubTexture name="Idle0001" x="0" y="0" width="450" height="450"/>
+	<SubTexture name="Idle0002" x="0" y="450" width="450" height="450"/>
+	<SubTexture name="Idle0003" x="0" y="450" width="450" height="450"/>
+	<SubTexture name="Idle0004" x="0" y="900" width="450" height="450"/>
+	<SubTexture name="Idle0005" x="0" y="900" width="450" height="450"/>
+	<SubTexture name="Idle0006" x="0" y="900" width="450" height="450"/>
+	<SubTexture name="Idle0007" x="0" y="900" width="450" height="450"/>
+	<SubTexture name="Idle0008" x="0" y="900" width="450" height="450"/>
+	<SubTexture name="Idle0009" x="0" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Down0000" x="0" y="1350" width="450" height="450"/>
+	<SubTexture name="Sing Down0001" x="0" y="1350" width="450" height="450"/>
+	<SubTexture name="Sing Down0002" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Down0003" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Down0004" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Down0005" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Down0006" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Down0007" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Down0008" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Down0009" x="450" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0000" x="900" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0001" x="900" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0002" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0003" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0004" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0005" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0006" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0007" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0008" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Left0009" x="1350" y="0" width="450" height="450"/>
+	<SubTexture name="Sing Right0000" x="450" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Right0001" x="450" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Right0002" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Right0003" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Right0004" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Right0005" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Right0006" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Right0007" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Right0008" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Right0009" x="450" y="900" width="450" height="450"/>
+	<SubTexture name="Sing Up0000" x="450" y="1350" width="450" height="450"/>
+	<SubTexture name="Sing Up0001" x="450" y="1350" width="450" height="450"/>
+	<SubTexture name="Sing Up0002" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Up0003" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Up0004" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Up0005" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Up0006" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Up0007" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Up0008" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="Sing Up0009" x="900" y="450" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0000" x="900" y="1350" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0001" x="900" y="1350" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0002" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0003" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0004" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0005" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0006" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0007" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0008" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0009" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0010" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0011" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0012" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0013" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0014" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0015" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0016" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0017" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0018" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0019" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0020" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0021" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0022" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0023" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0024" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0025" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0026" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0027" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0028" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0029" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0030" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0031" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0032" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0033" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0034" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0035" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0036" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0037" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0038" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0039" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0040" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0041" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0042" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0043" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0044" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0045" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0046" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0047" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0048" x="1350" y="900" width="450" height="450"/>
+	<SubTexture name="We spent so much money on that0049" x="1350" y="900" width="450" height="450"/>
+</TextureAtlas>

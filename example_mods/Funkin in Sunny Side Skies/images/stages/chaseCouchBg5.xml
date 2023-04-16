@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chaseCouchBg5.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0001" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0002" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0003" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0004" x="1232" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0005" x="1232" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0006" x="1232" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0007" x="1232" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0008" x="2448" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0009" x="2448" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0010" x="2448" y="16" width="1200" height="1200"/>
+	<SubTexture name="Idle0011" x="2448" y="16" width="1200" height="1200"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Idle",
+	"image": "settNutshell",
+	"position": [
+		130,
+		60
+	],
+	"flipX": false,
+	"scale": 1,
+	"confirm_anim": "Idle"
+}

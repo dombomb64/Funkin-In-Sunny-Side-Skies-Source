@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="runBg.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Scroll0000" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Scroll0001" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Scroll0002" x="16" y="1232" width="1200" height="1200"/>
+	<SubTexture name="Scroll0003" x="16" y="1232" width="1200" height="1200"/>
+	<SubTexture name="Scroll0004" x="16" y="2448" width="1200" height="1200"/>
+	<SubTexture name="Scroll0005" x="16" y="2448" width="1200" height="1200"/>
+</TextureAtlas>

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "Dance Left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "Dance Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "cheer",
+			"indices": [],
+			"name": "Cheer"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "sad",
+			"indices": [],
+			"name": "Cry"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "Scared"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "scared-loop",
+			"loop": true,
+			"name": "Scared Loop"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/mattBgNutshell",
+	"position": [
+		-100,
+		50
+	],
+	"healthicon": "mattNutshell",
+	"flip_x": false,
+	"healthbar_colors": [
+		245,
+		191,
+		137
+	],
+	"camera_position": [
+		-640,
+		-470
+	],
+	"sing_duration": 4,
+	"scale": 3
+}

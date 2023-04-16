@@ -1,0 +1,32 @@
+{
+	"storyName": "How dare you. Do you have any idea how hard I worked to buy that star? You're dead to me.",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "mikeOlderJackson",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss2",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"pico",
+		"frog",
+		"picoLeft"
+	],
+	"songs": [
+		[
+			"Game Over",
+			"ripLmao",
+			[
+				90,
+				161,
+				73
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Game Over"
+}

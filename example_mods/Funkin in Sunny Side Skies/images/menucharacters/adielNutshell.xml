@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="adielNutshell.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Idle0001" x="16" y="16" width="512" height="512"/>
+	<SubTexture name="Idle0002" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Idle0003" x="16" y="544" width="512" height="512"/>
+	<SubTexture name="Idle0004" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0005" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0006" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0007" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0008" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Idle0009" x="16" y="1072" width="512" height="512"/>
+	<SubTexture name="Sing Down0000" x="16" y="2656" width="512" height="512"/>
+	<SubTexture name="Sing Down0001" x="16" y="2656" width="512" height="512"/>
+	<SubTexture name="Sing Down0002" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Down0003" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Down0004" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Down0005" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Down0006" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Down0007" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Down0008" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Down0009" x="16" y="3184" width="512" height="512"/>
+	<SubTexture name="Sing Left0000" x="16" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Left0001" x="16" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Left0002" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Left0003" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Left0004" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Left0005" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Left0006" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Left0007" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Left0008" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Left0009" x="16" y="2128" width="512" height="512"/>
+	<SubTexture name="Sing Right0000" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Sing Right0001" x="544" y="1072" width="512" height="512"/>
+	<SubTexture name="Sing Right0002" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Right0003" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Right0004" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Right0005" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Right0006" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Right0007" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Right0008" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Right0009" x="544" y="1600" width="512" height="512"/>
+	<SubTexture name="Sing Up0000" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Sing Up0001" x="544" y="16" width="512" height="512"/>
+	<SubTexture name="Sing Up0002" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Sing Up0003" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Sing Up0004" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Sing Up0005" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Sing Up0006" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Sing Up0007" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Sing Up0008" x="544" y="544" width="512" height="512"/>
+	<SubTexture name="Sing Up0009" x="544" y="544" width="512" height="512"/>
+</TextureAtlas>

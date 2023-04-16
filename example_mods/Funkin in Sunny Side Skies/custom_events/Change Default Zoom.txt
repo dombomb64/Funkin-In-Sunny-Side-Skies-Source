@@ -1,0 +1,6 @@
+Self-explanatory. It changes the default zoom.
+Leave value 1 blank to reset.
+Surprised this wasn't in vanilla Psych Engine.
+
+Value 1: Zoom
+Value 2: Zoom value to reset to

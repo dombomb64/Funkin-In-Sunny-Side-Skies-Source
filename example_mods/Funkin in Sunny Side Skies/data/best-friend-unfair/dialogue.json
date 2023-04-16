@@ -1,0 +1,364 @@
+{
+	"dialogue": [
+		{
+			"sound": "matt",
+			"speed": 0.05,
+			"portrait": "mattDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Okay, Matt. You can do this."
+		},
+		{
+			"sound": "matt",
+			"speed": 0.05,
+			"portrait": "mattDialogueFlip",
+			"boxState": "normal",
+			"expression": "stressed",
+			"text": "There's no reason to be afraid-"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Yo, Matt!"
+		},
+		{
+			"sound": "matt",
+			"speed": 0.05,
+			"portrait": "mattDialogue",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "Kristen! You, uh, look great!"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Thanks."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Man, I haven't been to an arcade in years."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Ah, they're here!"
+		},
+		{
+			"sound": "matt",
+			"speed": 0.05,
+			"portrait": "mattDialogue",
+			"boxState": "normal",
+			"expression": "stressed",
+			"text": "Huh?"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "I invited a few people. Hope you don't mind."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Heeey!"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Hello!"
+		},
+		{
+			"sound": "matt",
+			"speed": 0.25,
+			"portrait": "mattDialogue",
+			"boxState": "normal",
+			"expression": "ded",
+			"text": "..."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Adam, right? My name's Kristen. Nice to finally meet you."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Yeah, same."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.1,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "stare",
+			"text": "Uhhh..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "stare",
+			"text": "Is that guy okay?"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Oh, Matt? Don't worry, he's cool."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Okay, everyone! Let's go!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "narrator",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "One intense gaming session later..."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Aw, yeah! Perfect score!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Come on, we're leaving."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Eh? Wha- Why-"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "I'll explain later."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Hold it. Where do you think you're taking my best friend?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Look, I won't beat around the bush. The reason we're leaving is-"
+		},
+		{
+			"sound": "matt",
+			"speed": 0.05,
+			"portrait": "mattDialogue",
+			"boxState": "normal",
+			"expression": "gesturingNo",
+			"text": ""
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Uh... What I meant to say... was that the real reason we're leaving is because..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "He's... MY best friend. So, you can't have him...?"
+		},
+		{
+			"sound": "matt",
+			"speed": 0.05,
+			"portrait": "mattDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "...?"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "confident",
+			"text": "Hah! You? His best friend? Don't make me laugh."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Tch. I guess there's only one way to settle this."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "confident",
+			"text": "Adam, I challenge you to a rap battle!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.25,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Nah. I'm good."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.1,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "confident",
+			"text": "Heh. What? Afraid you're gonna lose?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.5,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "stare",
+			"text": "..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Fine. If that's how you're gonna be, then I guess I have no choice."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Uh, one second, Matt. I gotta go to the bathroom. They can use the speaker I brought."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "confident",
+			"text": "Okay! Here are the rules:"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "confident",
+			"text": "I've got a playlist full of songs. Whoever wins twice in a row will earn the title of being Chase's best friend!"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Where'd you even come up with this?"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "confident",
+			"text": "Chase and I made it up when we were eleven. Feeling threatened yet?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "As if."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "confident",
+			"text": "Ready for the first song?"
+		},
+		{
+			"sound": "adam",
+			"speed": 0.1,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "...Yeah."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"storyName": "Okay, this is Crazy. Crazy, this is Okay.",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "howWasWorkDad2",
+	"weekBefore": "sss5",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Abuse",
+			"adamAbuse",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"gfScared",
+		"momLeft"
+	],
+	"weekName": "Abuse",
+	"hiddenUntilUnlocked": false
+}

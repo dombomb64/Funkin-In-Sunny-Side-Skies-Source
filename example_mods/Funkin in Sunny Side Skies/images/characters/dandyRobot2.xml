@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dandyRobot.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="16" y="16" width="2400" height="2400"/>
+	<SubTexture name="Idle0001" x="16" y="16" width="2400" height="2400"/>
+	<SubTexture name="Idle0002" x="16" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Idle0003" x="16" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Idle0004" x="16" y="4848" width="2400" height="2400"/>
+	<SubTexture name="Idle0005" x="16" y="4848" width="2400" height="2400"/>
+	<SubTexture name="Idle0006" x="2432" y="16" width="2400" height="2400"/>
+	<SubTexture name="Idle0007" x="2432" y="16" width="2400" height="2400"/>
+	<SubTexture name="Idle0008" x="2432" y="16" width="2400" height="2400"/>
+	<SubTexture name="Idle0009" x="2432" y="16" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0000" x="2432" y="4848" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0001" x="2432" y="4848" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0002" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0003" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0004" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0005" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0006" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0007" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0008" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Right0009" x="4848" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0000" x="4848" y="16" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0001" x="4848" y="16" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0002" x="2432" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0003" x="2432" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0004" x="2432" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0005" x="2432" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0006" x="2432" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0007" x="2432" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0008" x="2432" y="2432" width="2400" height="2400"/>
+	<SubTexture name="Sing Up0009" x="2432" y="2432" width="2400" height="2400"/>
+</TextureAtlas>

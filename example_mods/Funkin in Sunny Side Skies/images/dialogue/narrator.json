@@ -1,0 +1,25 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "Narrator",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Narrator",
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "narrator"
+}

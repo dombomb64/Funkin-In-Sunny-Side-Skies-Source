@@ -1,0 +1,9 @@
+chaseImpostor,-10,-8
+chaseInfected,-10,-8
+adamCrewmate,-10,8
+adamInfected,-10,8
+chaseNutshell,0,-8
+chaseWorried,0,-8
+chaseFlipnoteRed,0,-8
+chaseFlipnoteBlue,0,-8
+jimNutshell,0,-20

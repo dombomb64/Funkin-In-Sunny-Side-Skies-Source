@@ -1,0 +1,118 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sing Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sing Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "Dance Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Dance Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Sing Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Sing Left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/kristenRun",
+	"position": [
+		0,
+		50
+	],
+	"healthicon": "kristenFurious",
+	"flip_x": true,
+	"healthbar_colors": [
+		60,
+		163,
+		59
+	],
+	"camera_position": [
+		-650,
+		-640
+	],
+	"sing_duration": 4,
+	"scale": 3,
+	"legs_image": "characters/kristenLegs",
+	"legs_x": -201,
+	"legs_y": -372,
+	"legs_flipped_x": -30,
+	"legs_flip_x": true,
+	"legs_flip_y": false,
+	"legs_left": {
+		"loop": false,
+		"offsets": [
+			0,
+			0
+		],
+		"anim": "danceLeft",
+		"fps": 24,
+		"name": "Dance Right",
+		"indices": []
+	},
+	"legs_right": {
+		"loop": false,
+		"offsets": [
+			0,
+			0
+		],
+		"anim": "danceRight",
+		"fps": 24,
+		"name": "Dance Left",
+		"indices": []
+	},
+	"legs_type": "human"
+}

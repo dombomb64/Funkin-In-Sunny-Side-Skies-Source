@@ -1,0 +1,4 @@
+Makes the opponent play a packing animation and sound.
+
+Value 1: None
+Value 2: None

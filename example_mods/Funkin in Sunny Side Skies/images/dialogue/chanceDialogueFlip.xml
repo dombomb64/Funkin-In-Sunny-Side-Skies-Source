@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chanceDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Chance Crying Idle0000" x="2812" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Crying Idle0001" x="2812" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Crying Idle0002" x="3278" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Crying Idle0003" x="3278" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0000" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0001" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0002" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0003" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0004" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0005" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0006" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Crying Talk0007" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Excited Idle0000" x="16" y="16" width="900" height="450"/>
+	<SubTexture name="Chance Excited Talk0000" x="16" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Excited Talk0001" x="16" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Excited Talk0002" x="16" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Excited Talk0003" x="16" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Excited Talk0004" x="482" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Excited Talk0005" x="482" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Excited Talk0006" x="482" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Excited Talk0007" x="482" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Happy Idle0000" x="932" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0000" x="1398" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0001" x="1398" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0002" x="1398" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0003" x="1398" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0004" x="1864" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0005" x="1864" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0006" x="1864" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Happy Talk0007" x="1864" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Idle0000" x="1880" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Idle0001" x="1880" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Idle0002" x="2346" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Idle0003" x="2346" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0000" x="2812" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0001" x="2812" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0002" x="3278" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0003" x="3278" y="948" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0004" x="16" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0005" x="16" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0006" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Crying Talk0007" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Idle0000" x="948" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0000" x="1414" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0001" x="1414" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0002" x="1414" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0003" x="1414" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0004" x="1880" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0005" x="1880" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0006" x="1880" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Excited Talk0007" x="1880" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Idle0000" x="2330" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0000" x="2796" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0001" x="2796" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0002" x="2796" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0003" x="2796" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0004" x="3262" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0005" x="3262" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0006" x="3262" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Happy Talk0007" x="3262" y="16" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Idle0000" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0000" x="1880" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0001" x="1880" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0002" x="1880" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0003" x="1880" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0004" x="2346" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0005" x="2346" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0006" x="2346" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Neutral Talk0007" x="2346" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Idle0000" x="2346" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0000" x="2812" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0001" x="2812" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0002" x="2812" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0003" x="2812" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0004" x="3278" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0005" x="3278" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0006" x="3278" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Sad Talk0007" x="3278" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Idle0000" x="16" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0000" x="482" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0001" x="482" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0002" x="482" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0003" x="482" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0004" x="948" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0005" x="948" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0006" x="948" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Naked Smug Talk0007" x="948" y="2346" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Idle0000" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0000" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0001" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0002" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0003" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0004" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0005" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0006" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Neutral Talk0007" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Chance Sad Idle0000" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0000" x="1414" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0001" x="1414" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0002" x="1414" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0003" x="1414" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0004" x="1880" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0005" x="1880" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0006" x="1880" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Sad Talk0007" x="1880" y="1414" width="450" height="450"/>
+	<SubTexture name="Chance Smug Idle0000" x="2346" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0000" x="2812" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0001" x="2812" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0002" x="2812" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0003" x="2812" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0004" x="3278" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0005" x="3278" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0006" x="3278" y="1880" width="450" height="450"/>
+	<SubTexture name="Chance Smug Talk0007" x="3278" y="1880" width="450" height="450"/>
+</TextureAtlas>

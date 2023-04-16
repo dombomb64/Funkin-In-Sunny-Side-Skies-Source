@@ -1,0 +1,6 @@
+Force the vocal track to play.
+Useful for playing voicelines.
+NOTE: The vocals WILL turn back off if you get a miss.
+
+Value 1: None
+Value 2: None

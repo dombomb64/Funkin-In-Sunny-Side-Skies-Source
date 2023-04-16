@@ -1,0 +1,32 @@
+{
+	"storyName": "What FNF mod is getting cancelled next, and why? Balls mod because too much balls",
+	"difficulties": "Easy, Normal, Hard, Unfair",
+	"hideFreeplay": false,
+	"weekBackground": "bradTwerkin??B",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss4",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"bf"
+	],
+	"songs": [
+		[
+			"Challeng-Edd",
+			"dudeNutshell",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Challeng-Edd"
+}

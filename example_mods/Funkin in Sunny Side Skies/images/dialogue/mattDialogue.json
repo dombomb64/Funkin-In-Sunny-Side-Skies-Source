@@ -1,0 +1,90 @@
+{
+	"position": [
+		90,
+		0
+	],
+	"dialogue_pos": "right",
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"image": "mattDialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Matt Neutral Talk",
+			"idle_name": "Matt Neutral Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "stressed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Matt Stressed Talk",
+			"idle_name": "Matt Stressed Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "blushing",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Matt Blushing Talk",
+			"idle_name": "Matt Blushing Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Matt Happy Talk",
+			"idle_name": "Matt Happy Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "gesturingNo",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Matt Gesturing No",
+			"idle_name": "Matt Gesturing No"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "ded",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Matt Ded",
+			"idle_name": "Matt Ded"
+		}
+	]
+}

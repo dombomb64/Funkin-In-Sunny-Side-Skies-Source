@@ -1,0 +1,103 @@
+{
+	"position": [
+		80,
+		0
+	],
+	"dialogue_pos": "right",
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"image": "adielDialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Adiel Neutral Talk",
+			"idle_name": "Adiel Neutral Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "annoyed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Adiel Annoyed Talk",
+			"idle_name": "Adiel Annoyed Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Adiel Smug Talk",
+			"idle_name": "Adiel Smug Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Adiel Happy Talk",
+			"idle_name": "Adiel Happy Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "stare",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Adiel Stare Talk",
+			"idle_name": "Adiel Stare Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "blush",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Adiel Blush Talk",
+			"idle_name": "Adiel Blush Idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "nosebleed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Adiel Nosebleed Talk",
+			"idle_name": "Adiel Nosebleed Idle"
+		}
+	]
+}

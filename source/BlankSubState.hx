@@ -1,0 +1,4 @@
+class BlankSubState extends MusicBeatSubstate
+{
+    
+}

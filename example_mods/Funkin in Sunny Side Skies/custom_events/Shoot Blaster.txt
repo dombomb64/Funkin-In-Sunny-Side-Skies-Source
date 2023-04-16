@@ -1,0 +1,10 @@
+Shoot a fireball from a blaster.
+
+NOTE: Although blasters disappear after their fireball
+finishes exploding, their names are not removed from
+their array, so each blaster always has an ID of one
+greater than that of the previous one.
+The array starts at 1.
+
+Value 1: Blaster ID Number
+Value 2: Type in anything to print all blaster IDs.

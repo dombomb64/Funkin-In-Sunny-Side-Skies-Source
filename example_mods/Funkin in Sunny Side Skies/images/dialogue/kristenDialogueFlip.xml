@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kristenDialogue.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Kristen Angry Idle0000" x="1414" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0000" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0001" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0002" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0003" x="482" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0004" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0005" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0006" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Angry Talk0007" x="482" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Idle0000" x="16" y="1414" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0000" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0001" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0002" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0003" x="482" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0004" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0005" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0006" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Confident Talk0007" x="948" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Idle0000" x="16" y="16" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0000" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0001" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0002" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0003" x="16" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0004" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0005" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0006" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Happy Talk0007" x="16" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Idle0000" x="948" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0000" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0001" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0002" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0003" x="948" y="1414" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0004" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0005" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0006" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Neutral Talk0007" x="1414" y="948" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Idle0000" x="482" y="1414" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0000" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0001" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0002" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0003" x="948" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0004" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0005" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0006" x="1414" y="482" width="450" height="450"/>
+	<SubTexture name="Kristen Yelling Talk0007" x="1414" y="482" width="450" height="450"/>
+</TextureAtlas>

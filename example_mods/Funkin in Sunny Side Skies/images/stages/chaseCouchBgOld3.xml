@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chaseCouchBg3.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dance Left0000" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Dance Left0001" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Dance Left0002" x="16" y="1232" width="1200" height="1200"/>
+	<SubTexture name="Dance Left0003" x="16" y="1232" width="1200" height="1200"/>
+	<SubTexture name="Dance Right0000" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Dance Right0001" x="16" y="16" width="1200" height="1200"/>
+	<SubTexture name="Dance Right0002" x="16" y="2448" width="1200" height="1200"/>
+	<SubTexture name="Dance Right0003" x="16" y="2448" width="1200" height="1200"/>
+</TextureAtlas>

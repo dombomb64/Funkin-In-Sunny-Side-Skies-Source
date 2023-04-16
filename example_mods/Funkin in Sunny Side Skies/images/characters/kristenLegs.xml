@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kristenLegs.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dance Left0000" x="425" y="209" width="147" height="179" frameX="-73" frameY="-8" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0001" x="425" y="209" width="147" height="179" frameX="-73" frameY="-8" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0002" x="588" y="209" width="142" height="182" frameX="-48" frameY="-13" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0003" x="588" y="209" width="142" height="182" frameX="-48" frameY="-13" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0004" x="577" y="16" width="202" height="177" frameX="-31" frameY="-6" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0005" x="577" y="16" width="202" height="177" frameX="-31" frameY="-6" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0006" x="302" y="16" width="259" height="156" frameX="-7" frameY="0" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0007" x="302" y="16" width="259" height="156" frameX="-7" frameY="0" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0008" x="16" y="16" width="270" height="153" frameX="0" frameY="0" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0009" x="16" y="16" width="270" height="153" frameX="0" frameY="0" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0010" x="16" y="16" width="270" height="153" frameX="0" frameY="0" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Left0011" x="16" y="16" width="270" height="153" frameX="0" frameY="0" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0000" x="795" y="16" width="181" height="164" frameX="-47" frameY="-8" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0001" x="795" y="16" width="181" height="164" frameX="-47" frameY="-8" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0002" x="795" y="196" width="152" height="176" frameX="-59" frameY="-7" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0003" x="795" y="196" width="152" height="176" frameX="-59" frameY="-7" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0004" x="16" y="355" width="128" height="176" frameX="-71" frameY="-7" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0005" x="16" y="355" width="128" height="176" frameX="-71" frameY="-7" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0006" x="231" y="188" width="178" height="162" frameX="-33" frameY="-5" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0007" x="231" y="188" width="178" height="162" frameX="-33" frameY="-5" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0008" x="16" y="185" width="199" height="154" frameX="-21" frameY="-5" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0009" x="16" y="185" width="199" height="154" frameX="-21" frameY="-5" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0010" x="16" y="185" width="199" height="154" frameX="-21" frameY="-5" frameWidth="270" frameHeight="195"/>
+	<SubTexture name="Dance Right0011" x="16" y="185" width="199" height="154" frameX="-21" frameY="-5" frameWidth="270" frameHeight="195"/>
+</TextureAtlas>

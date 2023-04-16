@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-pokey.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Losing0000" x="16" y="16" width="150" height="150"/>
+	<SubTexture name="Neutral0000" x="182" y="16" width="150" height="150"/>
+	<SubTexture name="Winning0000" x="16" y="182" width="150" height="150"/>
+</TextureAtlas>

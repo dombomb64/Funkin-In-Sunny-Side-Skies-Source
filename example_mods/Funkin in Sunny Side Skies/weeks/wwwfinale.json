@@ -1,0 +1,33 @@
+{
+	"storyName": "Overcast Overview",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "pananananananana",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Overcast Overview",
+			"everyone",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"bfRightBruh",
+		"bfRightBruh",
+		"hornieBf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Overcast Overview",
+	"finale": true
+}

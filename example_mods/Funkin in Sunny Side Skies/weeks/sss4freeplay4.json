@@ -1,0 +1,32 @@
+{
+	"storyName": "Elephants be like: Oh look a peanut BREAAAAAAAPPPPPPAHHHHFFF",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "sonicFrontiersPhantasm",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "sss4",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"amongUs",
+		"",
+		"amogus"
+	],
+	"songs": [
+		[
+			"Final Round",
+			"chaseFurious",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Final Round"
+}

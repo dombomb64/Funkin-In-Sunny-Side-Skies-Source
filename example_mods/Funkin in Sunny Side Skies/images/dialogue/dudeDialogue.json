@@ -1,0 +1,51 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		100,
+		0
+	],
+	"no_antialiasing": true,
+	"scale": 1.5,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dude Neutral Idle",
+			"loop_name": "Dude Neutral Talk"
+		},
+		{
+			"loop_name": "Dude Annoyed Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dude Annoyed Idle",
+			"anim": "annoyed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Dude Confused Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dude Confused Idle",
+			"anim": "confused",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "dudeDialogue"
+}

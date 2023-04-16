@@ -1,0 +1,32 @@
+{
+	"storyName": "Gee, Bill! How come your mom lets you eat TWO weiners?",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "freeArtTranslator",
+	"weekBefore": "sss3",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Wahaha!",
+			"chaseAtistale",
+			[
+				120,
+				96,
+				144
+			]
+		]
+	],
+	"weekCharacters": [
+		"gf",
+		"horniebf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Wahaha!"
+}

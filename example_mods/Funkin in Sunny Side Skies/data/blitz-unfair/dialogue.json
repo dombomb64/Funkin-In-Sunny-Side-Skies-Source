@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Whew. I... I guess I lost that one."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "What's the matter, tired already?"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Nah, I- I mean, yeah, but- but that's only because I had track today."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "...It's Saturday."
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "D-did I say today? Heheh, I meant yesterday."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Okay..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "annoyed",
+			"text": "Anyway, you ready?"
+		},
+		{
+			"sound": "kristen",
+			"speed": 0.05,
+			"portrait": "kristenDialogueFlip",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "*swallows* Yeah!"
+		}
+	]
+}
