@@ -1,5 +1,5 @@
 function onCreate()
-	makeAnimatedLuaSprite('chaseBg', 'characters/chaseBgNutshell', 600, 0);
+	makeAnimatedLuaSprite('chaseBg', 'songSprites/chaseRematch', 600, 0);
 	addLuaSprite('chaseBg', true);
 	setProperty('chaseBg.scale.x', 3);
 	setProperty('chaseBg.scale.y', 3);

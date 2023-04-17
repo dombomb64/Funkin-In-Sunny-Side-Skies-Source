@@ -255,6 +255,7 @@ class ClientPrefs {
 				menuSoundSuffix = '';
 			else
 				menuSoundSuffix = 'LoFi';
+			//trace(menuMusic + ', ' + menuSoundSuffix);
 		//}
 		if(FlxG.save.data.gameplaySettings != null)
 		{

@@ -414,6 +414,7 @@ class FreeplayState extends MusicBeatState
 	}
 
 	public static function weekIsLocked(name:String):Bool {
+		//trace(WeekData.weeksLoaded);
 		var leWeek:WeekData = WeekData.weeksLoaded.get(name);
 		var isFinale:Bool = leWeek.finale;
 		var finaleSatisfied:Bool = true;
@@ -870,6 +871,7 @@ class FreeplayState extends MusicBeatState
 
 	function changeSelection(change:Int = 0, playSound:Bool = true)
 	{
+		//trace(ClientPrefs.menuSoundSuffix);
 		if (playSound) FlxG.sound.play(Paths.sound('scrollMenu' + ClientPrefs.menuSoundSuffix));
 
 		curSelected += change;
@@ -1164,8 +1166,10 @@ class FreeplayState extends MusicBeatState
 		icon.clipRect = new FlxRect(clipOffset.x, clipOffset.y, initSize.x, initSize.y); // Crop it like it's an image in that box
 	}
 
-	public static function loadSongs()
+	public static function loadSongs(isStoryMode:Bool = false)
 	{
+		WeekData.reloadWeekFiles(isStoryMode);
+		//trace(WeekData.weeksLoaded);
 		songs = [];
 		for (i in 0...WeekData.weeksList.length) {
 			if(weekIsLocked(WeekData.weeksList[i])) continue;

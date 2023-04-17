@@ -5881,15 +5881,18 @@ class PlayState extends MusicBeatState
 						triggerEventNote('Change Character', 'boyfriend', getFlipnoteBlueString(boyfriend.curCharacter));
 
 						for (note in notes) {
+							//trace(note.texture);
 							//note.texture = note.texture.replace('FlipnoteRed', 'FlipnoteBlue');
-							note.texture = getFlipnoteBlueString(note.texture);
+							//note.texture = getFlipnoteBlueString(note.texture);
+							note.texture = 'noteAssetsFlipnoteBlue';
 							//note.noteSplashTexture = note.noteSplashTexture.replace('FlipnoteRed', 'FlipnoteBlue');
 							note.noteSplashTexture = getFlipnoteBlueString(note.noteSplashTexture);
 							note.multSpeed = note.multSpeed;
 						}
 						for (note in unspawnNotes) {
 							//note.texture = note.texture.replace('FlipnoteRed', 'FlipnoteBlue');
-							note.texture = getFlipnoteBlueString(note.texture);
+							//note.texture = getFlipnoteBlueString(note.texture);
+							note.texture = 'noteAssetsFlipnoteBlue';
 							//note.noteSplashTexture = note.noteSplashTexture.replace('FlipnoteRed', 'FlipnoteBlue');
 							note.noteSplashTexture = getFlipnoteBlueString(note.noteSplashTexture);
 							note.multSpeed = note.multSpeed;
@@ -5912,12 +5915,14 @@ class PlayState extends MusicBeatState
 						triggerEventNote('Change Character', 'boyfriend', getFlipnoteRedString(boyfriend.curCharacter));
 
 						for (note in notes) {
-							note.texture = getFlipnoteRedString(note.texture);
+							//note.texture = getFlipnoteRedString(note.texture);
+							note.texture = 'noteAssetsFlipnoteRed';
 							note.noteSplashTexture = getFlipnoteRedString(note.noteSplashTexture);
 							note.multSpeed = note.multSpeed;
 						}
 						for (note in unspawnNotes) {
-							note.texture = getFlipnoteRedString(note.texture);
+							//note.texture = getFlipnoteRedString(note.texture);
+							note.texture = 'noteAssetsFlipnoteRed';
 							note.noteSplashTexture = getFlipnoteRedString(note.noteSplashTexture);
 							note.multSpeed = note.multSpeed;
 						}
@@ -6172,6 +6177,8 @@ class PlayState extends MusicBeatState
 					ClientPrefs.playMenuMusic();
 
 					cancelMusicFadeTween();
+					//isStoryMode = false;
+					FreeplayState.loadSongs(false);
 					if(FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
@@ -6183,6 +6190,7 @@ class PlayState extends MusicBeatState
 						if (FlxG.save.data.finaleCompleted == null)
 							FlxG.save.data.finaleCompleted = false;
 					}
+					//isStoryMode = true;
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
@@ -6190,6 +6198,8 @@ class PlayState extends MusicBeatState
 
 						if (SONG.validScore)
 						{
+							//trace('Saving Week Score');
+							WeekData.reloadWeekFiles(true);
 							Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
 						}
 
