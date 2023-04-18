@@ -111,6 +111,7 @@ class FreeplayState extends MusicBeatState
 		DiscordClient.changePresence("Freeplay Menu", null);
 		#end
 
+		//trace(StoryMenuState.weekCompleted);
 		for (i in 0...WeekData.weeksList.length) {
 			if(weekIsLocked(WeekData.weeksList[i])) continue;
 
@@ -227,14 +228,14 @@ class FreeplayState extends MusicBeatState
 			Paths.currentModDirectory = songs[i].folder;
 
 			var iconName = songs[i].songCharacter;
-			var iconHasShader = false;
+			/*var iconHasShader = false;
 			if (ClientPrefs.shaders && (iconName.endsWith('FlipnoteRed') || iconName.endsWith('FlipnoteBlue')))
 			{
 				iconName = PlayState.getFlipnoteShaderString(iconName);
 				iconHasShader = true;
 			}
 			else if (!ClientPrefs.shaders && (iconName.endsWith('FlipnoteShader')))
-				iconName = PlayState.getFlipnoteRedString(iconName);
+				iconName = PlayState.getFlipnoteRedString(iconName);*/
 
 			var icon:HealthIcon;
 			if (!HealthIcon.hasWinningIcon(iconName))
@@ -242,8 +243,8 @@ class FreeplayState extends MusicBeatState
 			else
 				icon = new CoolIcon(iconName);
 			icon.sprTracker = songText;
-			if (iconHasShader)
-				icon.shader = new FlipnoteDither.FlipnoteDitherShader();
+			//if (iconHasShader)
+				//icon.shader = new FlipnoteDither.FlipnoteDitherShader();
 			//trace(icon.x + ', ' + icon.y);
 			//icon.forceUpdate();
 			//trace(icon.x + ', ' + icon.y);
@@ -445,6 +446,7 @@ class FreeplayState extends MusicBeatState
 			}
 			//trace(finaleSatisfied);
 		}
+		//trace(leWeek.fileName + ' locked? ' + ((!leWeek.startUnlocked && leWeek.weekBefore.length > 0 && (!StoryMenuState.weekCompleted.exists(leWeek.weekBefore) || !StoryMenuState.weekCompleted.get(leWeek.weekBefore))) && ((isFinale && !finaleSatisfied) || !isFinale)) + ', ' + !StoryMenuState.weekCompleted.exists(leWeek.weekBefore) + ', ' + !StoryMenuState.weekCompleted.get(leWeek.weekBefore) + ', ' + ((isFinale && !finaleSatisfied) || !isFinale));
 		return (!leWeek.startUnlocked && leWeek.weekBefore.length > 0 && (!StoryMenuState.weekCompleted.exists(leWeek.weekBefore) || !StoryMenuState.weekCompleted.get(leWeek.weekBefore))) && ((isFinale && !finaleSatisfied) || !isFinale);
 	}
 

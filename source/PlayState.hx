@@ -6194,7 +6194,11 @@ class PlayState extends MusicBeatState
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
+						WeekData.reloadWeekFiles(true);
+						//trace(StoryMenuState.weekCompleted);
+						//trace(WeekData.weeksList);
 						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+						//trace(StoryMenuState.weekCompleted);
 
 						if (SONG.validScore)
 						{
