@@ -26,7 +26,7 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.6.3'; //This is also used for Discord RPC // It still said 0.6.2, FTFY
-	public static var fsssVersion:String = '5.0h2';
+	public static var fsssVersion:String = '5.0h3';
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
