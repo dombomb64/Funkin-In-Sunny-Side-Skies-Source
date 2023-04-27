@@ -55,22 +55,43 @@ function onStartCountdown()
 	return Function_Continue;
 end
 
---[[function onBeatHit()
-	if curBeat == 256 and isStoryMode then
+function onBeatHit()
+	if curBeat == 262 and isStoryMode then
 		makeLuaSprite('dialogueBg', 'menuDesat', 0, 0);
-		setObjectCamera('dialogueBg', 'hud');
+		setObjectCamera('dialogueBg', 'other');
 		setScrollFactor('dialogueBg', 0, 0);
+		--setProperty('dialogueBg.color', getColorFromHex(0xFF222222));
 		setProperty('dialogueBg.alpha', 0);
 		doTweenColor('bgColor', 'dialogueBg', '222222', 0.01, 'linear');
 		addLuaSprite('dialogueBg', true);
 		doTweenAlpha('bgFade', 'dialogueBg', 1, 1, 'sineInOut');
 	end
-end]]--
+end
 
 function onEndSong()
 	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
 	if not endDialogueFinished and isStoryMode then
-		makeLuaSprite('dialogueBg', 'menuDesat', 0, 0);
+		--[[makeLuaSprite('dialogueBg', 'menuDesat', screenWidth / 2, screenHeight / 2);
+		setObjectCamera('dialogueBg', 'hud');
+		setScrollFactor('dialogueBg', 0, 0);
+		setProperty('dialogueBg.alpha', 0);
+		doTweenAlpha('bgFadeIn', 'dialogueBg', 1, 0.5, 'sineInOut');
+		doTweenColor('bgColor', 'dialogueBg', '222222', 0.01, 'linear');
+		addLuaSprite('dialogueBg', true);]]--
+
+		setProperty('inCutscene', true);
+		--setProperty('paused', true);
+		--runTimer('startEndingDialogue', 0.8);
+		startDialogue('endingDialogue', 'kristen');
+		endDialogueFinished = true;
+		return Function_Stop;
+	end
+	return Function_Continue;
+end
+
+--[[function onBeatHit()
+	if curBeat == 260 then
+		makeLuaSprite('dialogueBg', 'menuDesat', screenWidth / 2, screenHeight / 2);
 		setObjectCamera('dialogueBg', 'hud');
 		setScrollFactor('dialogueBg', 0, 0);
 		setProperty('dialogueBg.alpha', 0);
@@ -79,12 +100,11 @@ function onEndSong()
 		addLuaSprite('dialogueBg', true);
 
 		setProperty('inCutscene', true);
+		setProperty('paused', true);
 		runTimer('startEndingDialogue', 0.8);
 		endDialogueFinished = true;
-		return Function_Stop;
 	end
-	return Function_Continue;
-end
+end]]--
 
 function onTweenCompleted(tag)
 	if (tag == 'bgFadeOut') then
@@ -96,6 +116,7 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
 		startDialogue('dialogue', 'frustration');
 	elseif tag == 'startEndingDialogue' then -- Timer completed, play dialogue
+		--debugPrint('test');
 		startDialogue('endingDialogue', 'kristen');
 	end
 end

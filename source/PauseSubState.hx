@@ -45,7 +45,7 @@ class PauseSubState extends MusicBeatSubstate
 	{
 		super();
 		if (CoolUtil.difficulties.length < 2) menuItemsOG.remove('Change Difficulty'); //No need to change difficulty if there is only one!
-		if (Highscore.getScore(PlayState.SONG.song, PlayState.storyDifficulty) > 0 && !PlayState.chartingMode && PlayState.isStoryMode) menuItemsOG.insert(3, 'Skip Song');
+		if (Highscore.getScore(PlayState.songNameNoDiff, PlayState.storyDifficulty) > 0 && !PlayState.chartingMode && PlayState.isStoryMode) menuItemsOG.insert(3, 'Skip Song');
 
 		if (FlxG.save.data.finaleActive) menuItemsOG = ['Resume', 'Restart Song'];
 		if (PlayState.chartingMode)
@@ -88,7 +88,7 @@ class PauseSubState extends MusicBeatSubstate
 		add(bg);
 
 		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
-		levelInfo.text += PlayState.SONG.song;
+		levelInfo.text += PlayState.songNameNoDiff;
 		if (PlayState.instance.inGallery)
 			levelInfo.text = 'Gallery'; // Meme... approved!
 		levelInfo.scrollFactor.set();
@@ -221,9 +221,9 @@ class PauseSubState extends MusicBeatSubstate
 			if (menuItems == difficultyChoices)
 			{
 				if (menuItems.length - 1 != curSelected && difficultyChoices.contains(daSelected)) {
-					var name:String = PlayState.SONG.song;
-					if (CoolUtil.difficulties[PlayState.storyDifficulty] == PlayState.remixDiffName)
-						name = name.substr(0, name.length - (PlayState.remixDiffName.length + 1)); // Yeah let's try switching to data/defeat-unfair/defeat-unfair-easy.json and see how that goes
+					var name:String = PlayState.songNameNoDiff;
+					/*if (CoolUtil.difficulties[PlayState.storyDifficulty] == PlayState.remixDiffName)
+						name = name.substr(0, name.length - (PlayState.remixDiffName.length + 1)); // Yeah let's try switching to data/defeat-unfair/defeat-unfair-easy.json and see how that goes*/
 					
 					var poop = Highscore.formatSong(name, curSelected);
 					PlayState.SONG = Song.loadFromJson(poop, name);

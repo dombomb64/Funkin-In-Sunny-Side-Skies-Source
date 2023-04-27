@@ -11,10 +11,10 @@ adamCrewmate,5,15
 adamInfected,5,-5
 chaseAnnoyed,10,-8
 chaseNutshell,10,-8
-chaseSad,10,0
-chaseWorried,10,-8
-chaseFurious,10,0
-chaseFlowerCrown,10,0
+chaseSad,10,-8
+chaseWorried,10,0
+chaseFurious,10,-8
+chaseFlowerCrown,10,-8
 chaseFlipnoteRed,10,-8
 chaseFlipnoteBlue,10,-8
 chaseFlipnoteShader,10,-8

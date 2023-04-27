@@ -1,9 +1,9 @@
-Best Friend
-Blitz
-Polar Opposite
-Rematch
-Get Back Here!
-Free Time
+Best Friend,Best Friend Unfair
+Blitz,Blitz Unfair
+Polar Opposite,Polar Opposite Unfair
+Rematch,Rematch Unfair
+Get Back Here!,Get Back Here! Unfair
+Free Time,Free Time Unfair
 Unfamiliar
 Raveyard
 Dude

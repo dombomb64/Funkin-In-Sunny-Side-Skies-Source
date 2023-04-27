@@ -13,7 +13,7 @@
 			"speed": 0.05,
 			"portrait": "chaseDialogueFlip",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "happy",
 			"text": "...with two pumps of vanilla, four pumps of hazelnut, extra mocha sauce, chips..."
 		},
 		{
@@ -29,7 +29,7 @@
 			"speed": 0.05,
 			"portrait": "chaseDialogueFlip",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "happy",
 			"text": "Also, extra whip, please!"
 		},
 		{
@@ -109,7 +109,7 @@
 			"speed": 0.06,
 			"portrait": "chaseDialogueFlip",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "excited",
 			"text": "Hiking? Jetskiing? Karaoke?"
 		},
 		{
@@ -269,7 +269,7 @@
 			"speed": 0.05,
 			"portrait": "chaseDialogueFlip",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "excited",
 			"text": "Yaayy! Thank you!"
 		}
 	]

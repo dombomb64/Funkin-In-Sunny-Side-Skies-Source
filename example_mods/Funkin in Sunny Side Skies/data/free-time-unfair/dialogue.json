@@ -1,20 +1,20 @@
 {
 	"dialogue": [
 		{
-			"sound": "chase",
+			"sound": "adam",
 			"speed": 0.05,
-			"portrait": "chaseDialogueFlip",
+			"portrait": "adamDialogue",
 			"boxState": "normal",
 			"expression": "neutral",
-			"text": "O-oh... Looks like you won. Again..."
+			"text": "Phew, that was close... Right, Chase?"
 		},
 		{
 			"sound": "chase",
 			"speed": 0.05,
 			"portrait": "chaseDialogueFlip",
 			"boxState": "normal",
-			"expression": "neutral",
-			"text": "Y'know, it isn't so fun when you always win..."
+			"expression": "crying",
+			"text": "*sniffle*"
 		},
 		{
 			"sound": "adam",
@@ -22,7 +22,39 @@
 			"portrait": "adamDialogue",
 			"boxState": "normal",
 			"expression": "neutral",
-			"text": "Sorry. Uh, maybe we could find another way to cheer you up."
+			"text": "Hey... Chase, you okay?"
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "*sniff* It's- it's just that I-I've never seen her that mad before..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Come on, it's okay... You don't have to worry about that. Come on, let's do something to keep your mind off of it."
+		},
+		{
+			"sound": "chase",
+			"speed": 0.05,
+			"portrait": "chaseDialogueFlip",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "*sniff* Okay..."
+		},
+		{
+			"sound": "adam",
+			"speed": 0.05,
+			"portrait": "adamDialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Hey, I know. Why don't we sing again?"
 		},
 		{
 			"sound": "chase",
@@ -30,55 +62,15 @@
 			"portrait": "chaseDialogueFlip",
 			"boxState": "normal",
 			"expression": "excited",
-			"text": "Ooh! I know! Think fast!"
+			"text": "S-sure! J-just you wait, I'm gonna beat you this time!"
 		},
 		{
 			"sound": "adam",
 			"speed": 0.05,
 			"portrait": "adamDialogue",
 			"boxState": "normal",
-			"expression": "snowballHit",
-			"text": "*thwack* AGH!"
-		},
-		{
-			"sound": "chase",
-			"speed": 0.05,
-			"portrait": "chaseDialogueFlip",
-			"boxState": "normal",
-			"expression": "smug",
-			"text": "..."
-		},
-		{
-			"sound": "chase",
-			"speed": 0.05,
-			"portrait": "chaseDialogueFlip",
-			"boxState": "normal",
-			"expression": "sad",
-			"text": "A-adam? Are you oka-"
-		},
-		{
-			"sound": "chase",
-			"speed": 0.05,
-			"portrait": "chaseDialogueFlip",
-			"boxState": "normal",
-			"expression": "snowballHit",
-			"text": "*thwack* ACK!"
-		},
-		{
-			"sound": "adam",
-			"speed": 0.05,
-			"portrait": "adamDialogue",
-			"boxState": "normal",
-			"expression": "smug",
-			"text": "Heheh, was that a parrot I heard?"
-		},
-		{
-			"sound": "chase",
-			"speed": 0.05,
-			"portrait": "chaseDialogueFlip",
-			"boxState": "angry",
-			"expression": "shocked",
-			"text": "TRAITOR!"
+			"expression": "happy",
+			"text": "That's the spirit!"
 		}
 	]
 }

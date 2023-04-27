@@ -62,7 +62,7 @@
 		0,
 		360
 	],
-	"healthicon": "chaseImpostor",
+	"healthicon": "chaseInfected",
 	"flip_x": false,
 	"healthbar_colors": [
 		122,

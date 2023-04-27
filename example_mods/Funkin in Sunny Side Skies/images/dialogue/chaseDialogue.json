@@ -88,12 +88,12 @@
 		},
 		{
 			"loop_offsets": [
-				80,
+				120,
 				0
 			],
 			"anim": "snowballHit",
 			"idle_offsets": [
-				80,
+				120,
 				0
 			],
 			"loop_name": "Chase Snowball Hit",

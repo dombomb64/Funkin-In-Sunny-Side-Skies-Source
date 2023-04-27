@@ -391,8 +391,8 @@ class PlayState extends MusicBeatState
 	var detailsPausedText:String = "";
 	#end
 
-	// I'd put these in the desktop check but PauseSubState uses remixDiffName soo :shrug:
-	public var songNameNoDiff:String = 'This message should not appear. It\'ll be a pain if it does...';
+	// I'd put these in the desktop check but PauseSubState uses songNameNoDiff soo :shrug:
+	public static var songNameNoDiff:String = 'This message should not appear. It\'ll be a pain if it does...';
 	public static var remixDiffName:String = 'Unfair';
 
 	public var galleryImageName:String = '';
@@ -3184,6 +3184,7 @@ class PlayState extends MusicBeatState
 	//You don't have to add a song, just saying. You can just do "startDialogue(dialogueJson);" and it should work
 	public function startDialogue(dialogueFile:DialogueFile, ?song:String = null):Void
 	{
+		//trace('starting dialogue');
 		// TO DO: Make this more flexible, maybe?
 		if(psychDialogue != null) return;
 
@@ -3206,7 +3207,7 @@ class PlayState extends MusicBeatState
 			}
 			psychDialogue.nextDialogueThing = startNextDialogue;
 			psychDialogue.skipDialogueThing = skipDialogue;
-			psychDialogue.cameras = [camHUD];
+			psychDialogue.cameras = [camOther];
 			add(psychDialogue);
 		} else {
 			FlxG.log.warn('Your dialogue file is badly formatted!');
@@ -4909,10 +4910,10 @@ class PlayState extends MusicBeatState
 			setStuffOnExit();
 		}
 
-		/*if (FlxG.keys.justPressed.P) {
+		if (FlxG.keys.justPressed.P) {
 			clearNotesBefore(songLength - 1);
 			setSongTime(songLength - 1);
-		}*/
+		}
 		
 		if (startedCountdown)
 		{
@@ -6111,6 +6112,7 @@ class PlayState extends MusicBeatState
 			return;
 		}
 		else if (!skippingSong) {
+			//trace('just play the dialogue');
 			//var achieve:String = checkForAchievement(['week1_nomiss', 'week2_nomiss', 'week3_nomiss', 'week4_nomiss',
 			//	'week5_nomiss', 'week6_nomiss', 'week7_nomiss', 'ur_bad',
 			//	'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);
@@ -6123,6 +6125,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 		else if (!Achievements.isAchievementUnlocked('cheated_victory')) {
+			//trace('just play the dialogue 2');
 			skipAchShown = false;
 			Achievements.unlockAchievement('cheated_victory');
 			startAchievement('cheated_victory');
@@ -6145,33 +6148,31 @@ class PlayState extends MusicBeatState
 			//pauseScreen.close();
 		}*/
 
+		//trace('just play the dialogue 3');
 		var ret:Dynamic = callOnLuas('onEndSong', [], false);
-		if(ret != FunkinLua.Function_Stop && !transitioning) {
-			if (SONG.validScore)
-			{
+		if (ret != FunkinLua.Function_Stop && !transitioning) {
+			//trace('just play the dialogue 4');
+			if (SONG.validScore) {
 				#if !switch
 				var percent:Float = ratingPercent;
-				if(Math.isNaN(percent)) percent = 0;
-				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent, fullCombo);
+				if (Math.isNaN(percent)) percent = 0;
+				Highscore.saveScore(songNameNoDiff, songScore, storyDifficulty, percent, fullCombo);
 				#end
 			}
 			playbackRate = 1;
 
-			if (chartingMode)
-			{
+			if (chartingMode) {
 				openChartEditor();
 				return;
 			}
 
-			if (isStoryMode)
-			{
+			if (isStoryMode) {
 				campaignScore += songScore;
 				campaignMisses += songMisses;
 
 				storyPlaylist.remove(storyPlaylist[0]);
 
-				if (storyPlaylist.length <= 0)
-				{
+				if (storyPlaylist.length <= 0) {
 					WeekData.loadTheFirstEnabledMod();
 					//FlxG.sound.playMusic(Paths.music('sunnySide'));
 					ClientPrefs.playMenuMusic();
